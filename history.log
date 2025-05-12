@@ -1,0 +1,1568 @@
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n    \"model_name\": \"FB(G)484/FBV484\",\n    \"table\": {\n        \"A\": {\n            \"MIN\": 2.14,\n            \"NOM\": 2.34,\n            \"MAX\": 2.54\n        },\n        \"A1\": {\n            \"MIN\": 0.40,\n            \"NOM\": 0.50,\n            \"MAX\": 0.60\n        },\n        \"A2\": {\n            \"MIN\": 0.88,\n            \"NOM\": 0.98,\n            \"MAX\": 1.08\n        },\n        \"D/E\": 23.00,\n        \"D1/E1\": 21.00,\n        \"e\": 1.00,\n        \"\u00f8b\": {\n            \"MIN\": 0.50,\n            \"NOM\": 0.60,\n            \"MAX\": 0.70\n        },\n        \"aaa\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": 0.20\n        },\n        \"ccc\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": 0.25\n        },\n        \"ddd\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": 0.25\n        },\n        \"eee\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": 0.10\n        },\n        \"M\": 26\n    }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.004783010853386914
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 386,
+        "total_token_count": 3947
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n  \"model_name\": \"FB(G)484/FBV484 (XC7K70T)\",\n  \"table\": {\n    \"A\": {\n      \"MIN\": 0.735,\n      \"NOM\": null,\n      \"MAX\": null\n    },\n    \"A1\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.55\n    },\n    \"A2\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": null\n    },\n    \"D/E\": 0.00,\n    \"D1/E1\": null,\n    \"e\": 0.80,\n    \"\u00f8b\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": null\n    },\n    \"aaa\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": null\n    },\n    \"ccc\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": null\n    },\n    \"ddd\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": null\n    },\n    \"eee\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": null\n    },\n    \"M\": null\n  }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.023172804803559273
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 330,
+        "total_token_count": 3891
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n    \"model_name\": \"CVG100\",\n    \"table\": {\n        \"A\": {\n            \"MIN\": 0.76,\n            \"NOM\": 0.86,\n            \"MAX\": 0.96\n        },\n        \"A1\": {\n            \"MIN\": 0.15,\n            \"NOM\": 0.20,\n            \"MAX\": 0.25\n        },\n        \"A2\": {\n            \"MIN\": 0.61,\n            \"NOM\": 0.66,\n            \"MAX\": 0.71\n        },\n        \"D/E\": 5.00,\n        \"D1/E1\": 3.60,\n        \"e\": 0.40,\n        \"\u00f8b\": {\n            \"MIN\": 0.20,\n            \"NOM\": 0.25,\n            \"MAX\": 0.30\n        },\n        \"ccc\": {\n            \"MAX\": 0.10\n        },\n        \"ddd\": {\n            \"MAX\": 0.08\n        },\n        \"eee\": {\n            \"MAX\": 0.15\n        },\n        \"fff\": {\n            \"MAX\": 0.05\n        },\n        \"ZD/ZE\": 0.70,\n        \"M\": 10\n    }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.018894775493724925
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 333,
+        "total_token_count": 3894
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n  \"model_name\": \"FF(G)1156/FFV1156 (VIRTEX-5 & 6)\",\n  \"table\": {\n    \"A\": {\n      \"MIN\": 2.7,\n      \"NOM\": 3.1,\n      \"MAX\": 3.5\n    },\n    \"A1\": {\n      \"MIN\": 0.4,\n      \"NOM\": 0.5,\n      \"MAX\": 0.6\n    },\n    \"A2\": {\n      \"MIN\": 2.3,\n      \"NOM\": 2.6,\n      \"MAX\": 2.9\n    },\n    \"D/E\": 35.00,\n    \"D1/E1\": 33.00,\n    \"e\": 1.00,\n    \"\u00f8b\": {\n      \"MIN\": 0.5,\n      \"NOM\": 0.6,\n      \"MAX\": 0.7\n    },\n    \"aaa\": {\n      \"MAX\": 0.2\n    },\n    \"ccc\": {\n      \"MAX\": 0.35\n    },\n    \"ddd\": {\n      \"MAX\": 0.3\n    },\n    \"eee\": {\n      \"MAX\": 0.1\n    },\n    \"M\": 34\n  }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.010059353021474985
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 325,
+        "total_token_count": 3886
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n  \"model_name\": \"FF665/FFG665/EF665/FFV665\",\n  \"table\": {\n    \"A\": {\n      \"MIN\": 2.50,\n      \"NOM\": null,\n      \"MAX\": 2.90\n    },\n    \"A1\": {\n      \"MIN\": 0.40,\n      \"NOM\": null,\n      \"MAX\": 0.60\n    },\n    \"A2\": {\n      \"MIN\": 0.65,\n      \"NOM\": null,\n      \"MAX\": 1.10\n    },\n    \"D/E\": 27.00,\n    \"D1/E1\": 25.00,\n    \"e\": 1.00,\n    \"\u00f8b\": {\n      \"MIN\": 0.50,\n      \"NOM\": 0.60,\n      \"MAX\": 0.70\n    },\n    \"aaa\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.20\n    },\n    \"ccc\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.25\n    },\n    \"ddd\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.25\n    },\n    \"eee\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.10\n    },\n    \"M\": 26\n  }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.0004654924594919095
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 382,
+        "total_token_count": 3943
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n    \"model_name\": \"FF(G)1156/FFV1156\\n(VIRTEX-5 : XC5VTX150T)\",\n    \"table\": {\n        \"A\": {\n            \"MIN\": 2.70,\n            \"NOM\": 3.10,\n            \"MAX\": 3.50\n        },\n        \"A1\": {\n            \"MIN\": 0.40,\n            \"NOM\": 0.50,\n            \"MAX\": 0.60\n        },\n        \"A2\": {\n            \"MIN\": 2.30,\n            \"NOM\": 2.60,\n            \"MAX\": 2.90\n        },\n        \"D/E\": 35.00,\n        \"D1/E1\": 33.00,\n        \"e\": 1.00,\n        \"\u00f8b\": {\n            \"MIN\": 0.50,\n            \"NOM\": 0.60,\n            \"MAX\": 0.70\n        },\n        \"aaa\": 0.25,\n        \"ccc\": 0.35,\n        \"ddd\": 0.30,\n        \"eee\": 0.10,\n        \"M\": 34\n    }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.007227082795734647
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 316,
+        "total_token_count": 3877
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n  \"model_name\": \"FF675/FFG675\",\n  \"table\": {\n    \"A\": {\n      \"MIN\": 2.35,\n      \"NOM\": null,\n      \"MAX\": 3.0\n    },\n    \"A1\": {\n      \"MIN\": 0.4,\n      \"NOM\": null,\n      \"MAX\": 0.6\n    },\n    \"A2\": {\n      \"MIN\": 0.65,\n      \"NOM\": null,\n      \"MAX\": 1.1\n    },\n    \"D/E\": 27.0,\n    \"D1/E1\": 25.0,\n    \"e\": 1.0,\n    \"\u00f8b\": {\n      \"MIN\": 0.5,\n      \"NOM\": 0.6,\n      \"MAX\": 0.7\n    },\n    \"aaa\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.2\n    },\n    \"ccc\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.25\n    },\n    \"ddd\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.25\n    },\n    \"eee\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.1\n    },\n    \"M\": 26\n  }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.007827068105713571
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 359,
+        "total_token_count": 3920
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n  \"model\": \"FB(G)484/FBV484 (XC7K160T)\",\n  \"table\": {\n    \"A\": {\n      \"MIN\": 16.05,\n      \"NOM\": null,\n      \"MAX\": 14.54\n    },\n    \"A1\": {\n      \"MIN\": 12.05,\n      \"NOM\": null,\n      \"MAX\": 8.54\n    },\n    \"A2\": {\n      \"MIN\": 8.8,\n      \"NOM\": null,\n      \"MAX\": 8.25\n    },\n    \"D/E\": 7,\n    \"D1/E1\": 5,\n    \"e\": 0.7,\n    \"\u00f8b\": {\n      \"MIN\": 0,\n      \"NOM\": null,\n      \"MAX\": 0.45\n    },\n    \"aaa\": {\n      \"MIN\": 0,\n      \"NOM\": null,\n      \"MAX\": 0\n    },\n    \"ccc\": {\n      \"MIN\": 2.5,\n      \"NOM\": null,\n      \"MAX\": 4\n    },\n    \"ddd\": {\n      \"MIN\": 2.5,\n      \"NOM\": null,\n      \"MAX\": null\n    },\n    \"eee\": {\n      \"MIN\": 0,\n      \"NOM\": null,\n      \"MAX\": null\n    },\n    \"M\": 0.55\n  }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.035837149751779124
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 362,
+        "total_token_count": 3923
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n    \"model_name\": \"FF(G)1156/FFV1156 ( KINTEX-7: XC7K420T/XC7K480T)\",\n    \"table\": {\n        \"A\": {\n            \"MIN\": 2.95,\n            \"NOM\": 3.15,\n            \"MAX\": 3.35\n        },\n        \"A1\": {\n            \"MIN\": 0.4,\n            \"NOM\": 0.5,\n            \"MAX\": 0.6\n        },\n        \"A2\": {\n            \"MIN\": 2.55,\n            \"NOM\": 2.65,\n            \"MAX\": 2.75\n        },\n        \"D/E\": 35.00,\n        \"D1/E1\": 33.00,\n        \"e\": 1.00,\n        \"\u00f8b\": {\n            \"MIN\": 0.50,\n            \"NOM\": 0.60,\n            \"MAX\": 0.70\n        },\n        \"aaa\": {\n            \"MAX\": 0.20\n        },\n        \"ccc\": {\n            \"MAX\": 0.35\n        },\n        \"ddd\": {\n            \"MAX\": 0.30\n        },\n        \"eee\": {\n            \"MAX\": 0.10\n        },\n        \"M\": 34\n    }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.012700561784271501
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 351,
+        "total_token_count": 3912
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n  \"model_name\": \"FF(G)1156/FFV1156 (KINTEX-7)\",\n  \"table\": {\n    \"A\": {\n      \"MIN\": 2.95,\n      \"NOM\": 3.15,\n      \"MAX\": 3.35\n    },\n    \"A1\": {\n      \"MIN\": 0.40,\n      \"NOM\": 0.50,\n      \"MAX\": 0.60\n    },\n    \"A2\": {\n      \"MIN\": 2.55,\n      \"NOM\": 2.65,\n      \"MAX\": 2.75\n    },\n    \"D/E\": 35.00,\n    \"D1/E1\": 33.00,\n    \"e\": 1.00,\n    \"\u00f8b\": {\n      \"MIN\": 0.50,\n      \"NOM\": 0.60,\n      \"MAX\": 0.70\n    },\n    \"aaa\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.20\n    },\n    \"ccc\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.35\n    },\n    \"ddd\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.30\n    },\n    \"eee\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.10\n    },\n    \"M\": 34\n  }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.0033246690246659487
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 394,
+        "total_token_count": 3955
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n  \"model_name\": \"FB(G)484/FBV484 (XC7Z030)\",\n  \"table\": {\n    \"A\": {\n      \"MIN\": 0.735,\n      \"MAX\": 0.55\n    },\n    \"A1\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.28\n    },\n    \"A2\": {\n      \"MIN\": 0.00,\n      \"NOM\": null,\n      \"MAX\": null\n    },\n    \"D/E\": 8.00,\n    \"D1/E1\": 8.10,\n    \"e\": 1.00,\n    \"\u00f8b\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": null\n    },\n    \"aaa\": {\n      \"MIN\": null,\n      \"MAX\": null\n    },\n    \"ccc\": {\n      \"MIN\": null,\n      \"MAX\": null\n    },\n    \"ddd\": {\n      \"MIN\": null,\n      \"MAX\": null\n    },\n    \"eee\": {\n      \"MIN\": null,\n      \"MAX\": null\n    },\n    \"M\": null\n  }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.04698730058701108
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 307,
+        "total_token_count": 3868
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n    \"model_name\": \"FF(G)1156/FFV1156\",\n    \"table\": {\n        \"A\": {\n            \"MIN\": 3.04,\n            \"NOM\": 3.24,\n            \"MAX\": 3.44\n        },\n        \"A1\": {\n            \"MIN\": 0.40,\n            \"NOM\": 0.50,\n            \"MAX\": 0.60\n        },\n        \"A2\": {\n            \"MIN\": 2.59,\n            \"NOM\": 2.74,\n            \"MAX\": 2.89\n        },\n        \"D/E\": 35.00,\n        \"D1/E1\": 33.00,\n        \"e\": 1.00,\n        \"\u00f8b\": {\n            \"MIN\": 0.50,\n            \"NOM\": 0.60,\n            \"MAX\": 0.70\n        },\n        \"aaa\": {\n            \"MAX\": 0.25\n        },\n        \"ccc\": {\n            \"MAX\": 0.35\n        },\n        \"ddd\": {\n            \"MAX\": 0.30\n        },\n        \"eee\": {\n            \"MAX\": 0.10\n        },\n        \"M\": 34\n    }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.004929056368678449
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 332,
+        "total_token_count": 3893
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n    \"model_name\": \"XC7Z030\",\n    \"table\": {\n        \"A\": {\n            \"MIN\": 0.55,\n            \"MAX\": 0.735\n        },\n        \"A1\": {\n            \"MIN\": 7.35,\n            \"NOM\": 7.6,\n            \"MAX\": 8.15\n        },\n        \"A2\": {\n            \"MIN\": 4.1,\n            \"NOM\": 5.4,\n            \"MAX\": null\n        },\n        \"D/E\": 15.1,\n        \"D1/E1\": 9.1,\n        \"e\": 0.0,\n        \"\u00f8b\": {\n            \"MIN\": 0.0,\n            \"NOM\": 1.3,\n            \"MAX\": null\n        },\n        \"aaa\": {\n            \"MIN\": 0.65,\n            \"NOM\": null,\n            \"MAX\": null\n        },\n        \"ccc\": {\n            \"MIN\": 3.95,\n            \"NOM\": 5.95,\n            \"MAX\": null\n        },\n        \"ddd\": {\n            \"MIN\": 5.1,\n            \"NOM\": 7.35,\n            \"MAX\": null\n        },\n        \"eee\": {\n            \"MIN\": 7.65,\n            \"NOM\": null,\n            \"MAX\": null\n        },\n        \"M\": 13.7\n    }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.05261512080057836
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 361,
+        "total_token_count": 3922
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n  \"model_name\": \"FB(G)676/FBV676\",\n  \"table\": {\n    \"A\": {\n      \"MIN\": 0.735,\n      \"NOM\": null,\n      \"MAX\": 0.55\n    },\n    \"A1\": {\n      \"MIN\": 9.1,\n      \"NOM\": null,\n      \"MAX\": 9.3\n    },\n    \"A2\": {\n      \"MIN\": 4.5,\n      \"NOM\": null,\n      \"MAX\": 4.8\n    },\n    \"D/E\": 2.2,\n    \"D1/E1\": 0.0,\n    \"e\": 2.0,\n    \"\u00f8b\": {\n      \"MIN\": 17.1,\n      \"NOM\": null,\n      \"MAX\": 11.1\n    },\n    \"aaa\": {\n      \"MIN\": 9.35,\n      \"NOM\": null,\n      \"MAX\": 9.5\n    },\n    \"ccc\": {\n      \"MIN\": 11.45,\n      \"NOM\": null,\n      \"MAX\": 11.2\n    },\n    \"ddd\": {\n      \"MIN\": 8.45,\n      \"NOM\": null,\n      \"MAX\": 5.65\n    },\n    \"eee\": {\n      \"MIN\": 20.8,\n      \"NOM\": null,\n      \"MAX\": 16.8\n    },\n    \"M\": 3.0\n  }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.02151925582684439
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 379,
+        "total_token_count": 3940
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n  \"model_name\": \"FF(G)1156/FFV1156 (ARTIX-7 & ZYNQ)\",\n  \"table\": {\n    \"A\": {\n      \"MIN\": 2.70,\n      \"NOM\": 2.90,\n      \"MAX\": 3.10\n    },\n    \"A1\": {\n      \"MIN\": 0.40,\n      \"NOM\": 0.50,\n      \"MAX\": 0.60\n    },\n    \"A2\": {\n      \"MIN\": 2.30,\n      \"NOM\": 2.40,\n      \"MAX\": 2.50\n    },\n    \"D/E\": 35.00,\n    \"D1/E1\": 33.00,\n    \"e\": 1.00,\n    \"\u00f8b\": {\n      \"MIN\": 0.50,\n      \"NOM\": 0.60,\n      \"MAX\": 0.70\n    },\n    \"aaa\": {\n      \"MAX\": 0.20\n    },\n    \"ccc\": {\n      \"MAX\": 0.35\n    },\n    \"ddd\": {\n      \"MAX\": 0.30\n    },\n    \"eee\": {\n      \"MAX\": 0.10\n    },\n    \"M\": 34\n  }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.0014971166062564794
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 341,
+        "total_token_count": 3902
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n    \"model_name\": \"FB(G)484/FBV484 (XC7A200T)\",\n    \"table\": {\n        \"A\": {\n            \"MIN\": null,\n            \"NOM\": 1.00,\n            \"MAX\": null\n        },\n        \"A1\": {\n            \"MIN\": null,\n            \"NOM\": 0.20,\n            \"MAX\": null\n        },\n        \"A2\": {\n            \"MIN\": null,\n            \"NOM\": 0.80,\n            \"MAX\": null\n        },\n        \"D/E\": 17.00,\n        \"D1/E1\": 11.00,\n        \"e\": 0.80,\n        \"\u00f8b\": {\n            \"MIN\": 0.40,\n            \"NOM\": 0.45,\n            \"MAX\": 0.50\n        },\n        \"aaa\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": 0.15\n        },\n        \"ccc\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": 0.10\n        },\n        \"ddd\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": 0.15\n        },\n        \"eee\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": 0.08\n        },\n        \"M\": 0.30\n    }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.02181477444146269
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 372,
+        "total_token_count": 3933
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n  \"model_name\": \"CPG196\",\n  \"table\": {\n    \"A\": {\n      \"MIN\": null,\n      \"NOM\": 1.00,\n      \"MAX\": 1.10\n    },\n    \"A1\": {\n      \"MIN\": 0.15,\n      \"NOM\": 0.20,\n      \"MAX\": 0.25\n    },\n    \"D/E\": {\n      \"MIN\": 7.90,\n      \"NOM\": 8.00,\n      \"MAX\": 8.10\n    },\n    \"D1/E1\": {\n      \"MIN\": 6.50\n    },\n    \"e\": {\n      \"MIN\": 0.50\n    },\n    \"\u00f8b\": {\n      \"MIN\": 0.25,\n      \"NOM\": 0.30,\n      \"MAX\": 0.35\n    },\n    \"ccc\": {\n      \"MAX\": 0.10\n    },\n    \"ddd\": {\n      \"MAX\": 0.08\n    },\n    \"eee\": {\n      \"MAX\": 0.15\n    },\n    \"M\": {\n      \"MIN\": 14\n    },\n    \"ZD/ZE\": {\n      \"MIN\": 0.60,\n      \"NOM\": 0.75,\n      \"MAX\": 0.90\n    }\n  }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.012255900980055164
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 353,
+        "total_token_count": 3914
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n  \"model_name\": \"FF(G)1923/1924\",\n  \"table\": {\n    \"A\": {\n      \"MIN\": 3.20,\n      \"NOM\": null,\n      \"MAX\": 3.85\n    },\n    \"A1\": {\n      \"MIN\": 0.40,\n      \"NOM\": 0.50,\n      \"MAX\": 0.60\n    },\n    \"A2\": {\n      \"MIN\": 1.10,\n      \"NOM\": null,\n      \"MAX\": 1.40\n    },\n    \"D/E\": 45.00,\n    \"D1/E1\": 43.00,\n    \"e\": 1.00,\n    \"\u00f8b\": {\n      \"MIN\": 0.50,\n      \"NOM\": 0.60,\n      \"MAX\": 0.70\n    },\n    \"aaa\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.20\n    },\n    \"bbb\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.25\n    },\n    \"ddd\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.25\n    },\n    \"eee\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.10\n    },\n    \"M\": 44\n  }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.004426035300764458
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 378,
+        "total_token_count": 3939
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n  \"model_name\": \"FB(G)900/FBV900\",\n  \"table\": {\n    \"A\": {\n      \"MIN\": null,\n      \"NOM\": 11.45,\n      \"MAX\": 11.65\n    },\n    \"A1\": {\n      \"MIN\": 10.95,\n      \"NOM\": 11.18,\n      \"MAX\": null\n    },\n    \"A2\": {\n      \"MIN\": null,\n      \"NOM\": 9.9,\n      \"MAX\": null\n    },\n    \"D/E\": 6.0,\n    \"D1/E1\": 1.8,\n    \"e\": 0.0,\n    \"\u00f8b\": {\n      \"MIN\": null,\n      \"NOM\": 1.6,\n      \"MAX\": null\n    },\n    \"aaa\": {\n      \"MIN\": 4.3,\n      \"NOM\": null,\n      \"MAX\": null\n    },\n    \"ccc\": {\n      \"MIN\": 4.65,\n      \"NOM\": null,\n      \"MAX\": null\n    },\n    \"ddd\": {\n      \"MIN\": null,\n      \"NOM\": 9.0,\n      \"MAX\": null\n    },\n    \"eee\": {\n      \"MIN\": null,\n      \"NOM\": 10.0,\n      \"MAX\": null\n    },\n    \"M\": 0.735\n  }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.05604840384589301
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 360,
+        "total_token_count": 3921
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n  \"model_name\": \"FF784/FFG784/FFV784\",\n  \"table\": {\n    \"A\": {\n      \"MIN\": 2.45,\n      \"MAX\": 2.86\n    },\n    \"A1\": {\n      \"MIN\": 0.4,\n      \"NOM\": 0.5,\n      \"MAX\": 0.6\n    },\n    \"A2\": {\n      \"MIN\": 0.65,\n      \"MAX\": 0.95\n    },\n    \"D/E\": 29.0,\n    \"D1/E1\": 27.0,\n    \"e\": 1.0,\n    \"\u00f8b\": {\n      \"MIN\": 0.5,\n      \"NOM\": 0.6,\n      \"MAX\": 0.7\n    },\n    \"aaa\": {\n      \"MAX\": 0.2\n    },\n    \"ccc\": {\n      \"MAX\": 0.25\n    },\n    \"ddd\": {\n      \"MAX\": 0.25\n    },\n    \"eee\": {\n      \"MAX\": 0.1\n    },\n    \"M\": 28\n  }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.004791689316431681
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 300,
+        "total_token_count": 3861
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n    \"model_name\": \"FB(G)900/FBV900\",\n    \"table\": {\n        \"A\": {\n            \"MIN\": 2.14,\n            \"NOM\": 2.34,\n            \"MAX\": 2.54\n        },\n        \"A1\": {\n            \"MIN\": 0.40,\n            \"NOM\": 0.50,\n            \"MAX\": 0.60\n        },\n        \"A2\": {\n            \"MIN\": 0.88,\n            \"NOM\": 0.98,\n            \"MAX\": 1.08\n        },\n        \"D/E\": 31.00,\n        \"D1/E1\": 29.00,\n        \"e\": 1.00,\n        \"\u00f8b\": {\n            \"MIN\": 0.50,\n            \"NOM\": 0.60,\n            \"MAX\": 0.70\n        },\n        \"aaa\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": 0.20\n        },\n        \"ccc\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": 0.35\n        },\n        \"ddd\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": 0.30\n        },\n        \"eee\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": 0.10\n        },\n        \"M\": 30\n    }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.0028826053896098556
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 386,
+        "total_token_count": 3947
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n    \"model_name\": \"FF(G)1923/1924\",\n    \"table\": {\n        \"A\": {\n            \"MIN\": 3.20,\n            \"NOM\": null,\n            \"MAX\": 3.85\n        },\n        \"A1\": {\n            \"MIN\": 0.40,\n            \"NOM\": 0.50,\n            \"MAX\": 0.60\n        },\n        \"A2\": {\n            \"MIN\": 1.10,\n            \"NOM\": null,\n            \"MAX\": 1.40\n        },\n        \"D/E\": 45.00,\n        \"D1/E1\": 43.00,\n        \"e\": 1.00,\n        \"\u00f8b\": {\n            \"MIN\": 0.50,\n            \"NOM\": 0.60,\n            \"MAX\": 0.70\n        },\n        \"aaa\": null,\n        \"bbb\": null,\n        \"ddd\": null,\n        \"eee\": null,\n        \"M\": 44\n    }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.005683158000890356
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 274,
+        "total_token_count": 3835
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n  \"model_name\": \"FF(G)1738\",\n  \"table\": {\n    \"A\": {\n      \"MIN\": 2.85,\n      \"MAX\": 3.25\n    },\n    \"A1\": {\n      \"MIN\": 0.4,\n      \"NOM\": 0.5,\n      \"MAX\": 0.6\n    },\n    \"A2\": {\n      \"MIN\": 1.0,\n      \"MAX\": 1.4\n    },\n    \"D/E\": 42.5,\n    \"D1/E1\": 41.0,\n    \"e\": 1.0,\n    \"\u00f8b\": {\n      \"MIN\": 0.5,\n      \"NOM\": 0.6,\n      \"MAX\": 0.7\n    },\n    \"aaa\": {\n      \"MAX\": 0.2\n    },\n    \"bbb\": {\n      \"MAX\": 0.25\n    },\n    \"ddd\": {\n      \"MAX\": 0.25\n    },\n    \"eee\": {\n      \"MAX\": 0.1\n    },\n    \"M\": 42\n  }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.002865023654082726
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 290,
+        "total_token_count": 3851
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n    \"model_name\": \"FT64/FTG64\",\n    \"table\": {\n        \"A\": {\n            \"MIN\": 1.01,\n            \"NOM\": null,\n            \"MAX\": 1.2\n        },\n        \"A1\": {\n            \"MIN\": 0.2,\n            \"NOM\": 0.3,\n            \"MAX\": 0.35\n        },\n        \"A2\": {\n            \"MIN\": null,\n            \"NOM\": 0.8,\n            \"MAX\": null\n        },\n        \"D\": {\n            \"MIN\": 9.9,\n            \"NOM\": 10.0,\n            \"MAX\": 10.1\n        },\n        \"D1\": {\n            \"MIN\": null,\n            \"NOM\": 7.0,\n            \"MAX\": null\n        },\n        \"e\": {\n            \"MIN\": 1.0\n        },\n        \"E\": {\n            \"MIN\": 12.9,\n            \"NOM\": 13.0,\n            \"MAX\": 13.1\n        },\n        \"E1\": {\n            \"MIN\": null,\n            \"NOM\": 7.0,\n            \"MAX\": null\n        },\n        \"\u00f8b\": {\n            \"MIN\": 0.35,\n            \"NOM\": null,\n            \"MAX\": 0.5\n        },\n        \"M\": {\n            \"MIN\": 8,\n            \"MAX\": 2\n        }\n    }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.01040907657664755
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 368,
+        "total_token_count": 3929
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n  \"model_name\": \"FF(G)1738\",\n  \"table\": {\n    \"A\": {\n      \"MIN\": 2.85,\n      \"NOM\": null,\n      \"MAX\": 3.25\n    },\n    \"A1\": {\n      \"MIN\": 0.4,\n      \"NOM\": 0.5,\n      \"MAX\": 0.6\n    },\n    \"A2\": {\n      \"MIN\": 1.0,\n      \"NOM\": null,\n      \"MAX\": 1.4\n    },\n    \"D/E\": 42.5,\n    \"D1/E1\": 41.0,\n    \"e\": 1.0,\n    \"\u00f8b\": {\n      \"MIN\": 0.5,\n      \"NOM\": 0.6,\n      \"MAX\": 0.7\n    },\n    \"aaa\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.25\n    },\n    \"bbb\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.25\n    },\n    \"ddd\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.25\n    },\n    \"eee\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.1\n    },\n    \"M\": 42\n  }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.008148887481055432
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 361,
+        "total_token_count": 3922
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n    \"model_name\": \"FF1153/FFG1153/FFV1153\",\n    \"table\": {\n        \"A\": {\n            \"MIN\": 2.70,\n            \"NOM\": null,\n            \"MAX\": 3.40\n        },\n        \"A1\": {\n            \"MIN\": 0.40,\n            \"NOM\": 0.50,\n            \"MAX\": 0.60\n        },\n        \"A2\": {\n            \"MIN\": 1.00,\n            \"NOM\": 1.10,\n            \"MAX\": 1.20\n        },\n        \"D/E\": 35.00,\n        \"D1/E1\": 33.00,\n        \"e\": 1.00,\n        \"\u00f8b\": {\n            \"MIN\": 0.50,\n            \"NOM\": 0.60,\n            \"MAX\": 0.70\n        },\n        \"aaa\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": 0.20\n        },\n        \"ccc\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": 0.35\n        },\n        \"ddd\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": 0.30\n        },\n        \"eee\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": 0.10\n        },\n        \"M\": 34\n    }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.0012986736813771357
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 388,
+        "total_token_count": 3949
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n    \"model\": \"FF323/FFG323/FFV323\",\n    \"table\": {\n        \"A\": {\n            \"MIN\": 2.00,\n            \"NOM\": null,\n            \"MAX\": 2.85\n        },\n        \"A1\": {\n            \"MIN\": 0.40,\n            \"NOM\": null,\n            \"MAX\": 0.60\n        },\n        \"A2\": {\n            \"MIN\": 1.60,\n            \"NOM\": null,\n            \"MAX\": 2.25\n        },\n        \"D/E\": 19.00,\n        \"D1/E1\": 17.00,\n        \"e\": 1.00,\n        \"\u00f8b\": {\n            \"MIN\": 0.50,\n            \"NOM\": 0.60,\n            \"MAX\": 0.70\n        },\n        \"aaa\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": 0.20\n        },\n        \"ccc\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": 0.25\n        },\n        \"ddd\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": 0.25\n        },\n        \"eee\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": 0.10\n        },\n        \"M\": 18\n    }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.0020268274943033853
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 375,
+        "total_token_count": 3936
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n    \"model_name\": \"FB(G)900/FBV900\",\n    \"table\": {\n        \"A\": {\n            \"MIN\": 0.735,\n            \"MAX\": 0.55\n        },\n        \"A1\": {\n            \"MIN\": null,\n            \"NOM\": 0.0,\n            \"MAX\": null\n        },\n        \"A2\": {\n            \"MIN\": null,\n            \"NOM\": 0.2,\n            \"MAX\": null\n        },\n        \"D/E\": 9.90,\n        \"D1/E1\": 5.30,\n        \"e\": 3.00,\n        \"\u00f8b\": {\n            \"MIN\": null,\n            \"NOM\": 0.5,\n            \"MAX\": null\n        },\n        \"aaa\": {\n            \"MIN\": null,\n            \"NOM\": 0.0,\n            \"MAX\": null\n        },\n        \"ccc\": {\n            \"MIN\": null,\n            \"NOM\": 0.0,\n            \"MAX\": null\n        },\n        \"ddd\": {\n            \"MIN\": null,\n            \"NOM\": 6.75,\n            \"MAX\": null\n        },\n        \"eee\": {\n            \"MIN\": null,\n            \"NOM\": 9.0,\n            \"MAX\": null\n        },\n        \"M\": 11.50\n    }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.03182584064494636
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 347,
+        "total_token_count": 3908
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n    \"model_name\": \"EF1738\",\n    \"table\": {\n        \"A\": {\n            \"MIN\": 2.85,\n            \"NOM\": null,\n            \"MAX\": 325\n        },\n        \"A1\": {\n            \"MIN\": 0.4,\n            \"NOM\": 0.5,\n            \"MAX\": 0.6\n        },\n        \"A2\": {\n            \"MIN\": 2.3,\n            \"NOM\": null,\n            \"MAX\": 2.9\n        },\n        \"D/E\": 42.5,\n        \"D1/E1\": 41.0,\n        \"e\": 1.0,\n        \"\u00f8b\": {\n            \"MIN\": 0.5,\n            \"NOM\": 0.6,\n            \"MAX\": 0.7\n        },\n        \"aaa\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": 0.2\n        },\n        \"bbb\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": 0.25\n        },\n        \"ddd\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": 0.25\n        },\n        \"eee\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": 0.1\n        },\n        \"M\": 42\n    }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.0040587494882305016
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 356,
+        "total_token_count": 3917
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n  \"model_name\": \"EF1738(XQ5VFX130T/XQ5VLX220T/XQ5VLX330T)\",\n  \"table\": {\n    \"A\": {\n      \"MIN\": 2.85,\n      \"NOM\": null,\n      \"MAX\": 325\n    },\n    \"A1\": {\n      \"MIN\": 0.4,\n      \"NOM\": 0.5,\n      \"MAX\": 0.6\n    },\n    \"A2\": {\n      \"MIN\": 2.3,\n      \"NOM\": null,\n      \"MAX\": 2.9\n    },\n    \"D/E\": 42.5,\n    \"D1/E1\": 41.0,\n    \"e\": 1.0,\n    \"\u00f8b\": {\n      \"MIN\": 0.5,\n      \"NOM\": 0.6,\n      \"MAX\": 0.7\n    },\n    \"aaa\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.25\n    },\n    \"bbb\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.25\n    },\n    \"ddd\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.25\n    },\n    \"eee\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.1\n    },\n    \"M\": 42\n  }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.01314004510641098
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 384,
+        "total_token_count": 3945
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n    \"model_name\": \"CS(G)225 CSGA225\",\n    \"table\": {\n        \"A\": {\n            \"MIN\": 1.00,\n            \"NOM\": null,\n            \"MAX\": 1.40\n        },\n        \"A1\": {\n            \"MIN\": 0.25,\n            \"NOM\": 0.30,\n            \"MAX\": 0.40\n        },\n        \"A2\": {\n            \"MIN\": 0.75,\n            \"NOM\": 0.90,\n            \"MAX\": 1.00\n        },\n        \"D/E\": 13.00,\n        \"D1/E1\": 11.20,\n        \"e\": 0.80,\n        \"\u00f8b\": {\n            \"MIN\": 0.35,\n            \"NOM\": 0.40,\n            \"MAX\": 0.45\n        },\n        \"bbb\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": 0.20\n        },\n        \"ddd\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": 0.10\n        },\n        \"eee\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": 0.15\n        },\n        \"fff\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": 0.08\n        },\n        \"M\": 15\n    }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.005130466200861093
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 381,
+        "total_token_count": 3942
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n  \"model_name\": \"EF1153\",\n  \"table\": {\n    \"A\": {\n      \"MIN\": 2.70,\n      \"NOM\": null,\n      \"MAX\": 3.40\n    },\n    \"A1\": {\n      \"MIN\": 0.40,\n      \"NOM\": 0.50,\n      \"MAX\": 0.60\n    },\n    \"A2\": {\n      \"MIN\": 2.46,\n      \"NOM\": null,\n      \"MAX\": 2.80\n    },\n    \"D/E\": 35.00,\n    \"D1/E1\": 33.00,\n    \"e\": 1.00,\n    \"\u00f8b\": {\n      \"MIN\": 0.50,\n      \"NOM\": 0.60,\n      \"MAX\": 0.70\n    },\n    \"aaa\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.20\n    },\n    \"ccc\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.35\n    },\n    \"ddd\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.30\n    },\n    \"eee\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.10\n    },\n    \"M\": 34\n  }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.0016184686003504574
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 370,
+        "total_token_count": 3931
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n    \"model_name\": \"FF(G)900/901,FFV900/901\",\n    \"table\": {\n        \"A\": {\n            \"MIN\": 2.95,\n            \"NOM\": 3.15,\n            \"MAX\": 3.35\n        },\n        \"A1\": {\n            \"MIN\": 0.4,\n            \"NOM\": 0.5,\n            \"MAX\": 0.6\n        },\n        \"A2\": {\n            \"MIN\": 2.55,\n            \"NOM\": null,\n            \"MAX\": 2.75\n        },\n        \"D/E\": 31.00,\n        \"D1/E1\": 29.00,\n        \"e\": 1.00,\n        \"\u00f8b\": {\n            \"MIN\": 0.5,\n            \"NOM\": 0.6,\n            \"MAX\": 0.7\n        },\n        \"aaa\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": 0.2\n        },\n        \"ccc\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": 0.35\n        },\n        \"ddd\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": 0.3\n        },\n        \"eee\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": 0.1\n        },\n        \"M\": 30\n    }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.005358809874126604
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 381,
+        "total_token_count": 3942
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n  \"model_name\": \"CS484/CSG484\",\n  \"table\": {\n    \"A\": {\n      \"MIN\": 1.57,\n      \"NOM\": 1.67,\n      \"MAX\": 1.8\n    },\n    \"A1\": {\n      \"MIN\": 0.3,\n      \"NOM\": 0.38,\n      \"MAX\": 0.45\n    },\n    \"D/E\": 19.00,\n    \"D1/E1\": 16.80,\n    \"e\": 0.80,\n    \"\u00f8b\": {\n      \"MIN\": 0.4,\n      \"NOM\": 0.5,\n      \"MAX\": 0.55\n    },\n    \"aaa\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.2\n    },\n    \"ccc\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.2\n    },\n    \"ddd\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.15\n    },\n    \"eee\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.08\n    },\n    \"M\": 22\n  }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.005478202051191187
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 335,
+        "total_token_count": 3896
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n    \"model_name\": \"CP(G)236\",\n    \"table\": {\n        \"A\": {\n            \"MIN\": 1.18,\n            \"NOM\": 1.28,\n            \"MAX\": 1.38\n        },\n        \"A1\": {\n            \"MIN\": 0.17,\n            \"NOM\": 0.22,\n            \"MAX\": 0.27\n        },\n        \"A2\": {\n            \"MIN\": 1.01,\n            \"NOM\": 1.06,\n            \"MAX\": 1.11\n        },\n        \"D/E\": 9.90,\n        \"D1/E1\": 9.00,\n        \"e\": 0.50,\n        \"\u00f8b\": {\n            \"MIN\": 0.25,\n            \"NOM\": 0.30,\n            \"MAX\": 0.35\n        },\n        \"ccc\": {\n            \"MAX\": 0.10\n        },\n        \"ddd\": {\n            \"MAX\": 0.08\n        },\n        \"eee\": {\n            \"MAX\": 0.15\n        },\n        \"fff\": {\n            \"MAX\": 0.05\n        },\n        \"ZD/ZE\": {\n            \"MIN\": 0.35,\n            \"NOM\": 0.50,\n            \"MAX\": 0.65\n        },\n        \"M\": 19\n    }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.0028121187262339135
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 365,
+        "total_token_count": 3926
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n  \"model_name\": \"FF(G)900/901,FFV900/901\",\n  \"table\": {\n    \"A\": {\n      \"MIN\": 2.95,\n      \"NOM\": 3.15,\n      \"MAX\": 3.35\n    },\n    \"A1\": {\n      \"MIN\": 0.40,\n      \"NOM\": 0.50,\n      \"MAX\": 0.60\n    },\n    \"A2\": {\n      \"MIN\": 2.55,\n      \"NOM\": null,\n      \"MAX\": 2.75\n    },\n    \"D/E\": 31.00,\n    \"D1/E1\": 29.00,\n    \"e\": 1.00,\n    \"\u00f8b\": {\n      \"MIN\": 0.50,\n      \"NOM\": 0.60,\n      \"MAX\": 0.70\n    },\n    \"aaa\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.20\n    },\n    \"ccc\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.35\n    },\n    \"ddd\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.30\n    },\n    \"eee\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.10\n    },\n    \"M\": 30\n  }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.01182401974995931
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 390,
+        "total_token_count": 3951
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n  \"model_name\": \"FF(G)1759\",\n  \"table\": {\n    \"A\": {\n      \"MIN\": 2.80,\n      \"NOM\": null,\n      \"MAX\": 3.50\n    },\n    \"A1\": {\n      \"MIN\": 0.40,\n      \"NOM\": 0.50,\n      \"MAX\": 0.60\n    },\n    \"A2\": {\n      \"MIN\": 1.10,\n      \"NOM\": null,\n      \"MAX\": 1.50\n    },\n    \"D/E\": 42.50,\n    \"D1/E1\": 41.00,\n    \"e\": 1.00,\n    \"\u00f8b\": {\n      \"MIN\": 0.50,\n      \"NOM\": 0.60,\n      \"MAX\": 0.70\n    },\n    \"aaa\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.20\n    },\n    \"bbb\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.25\n    },\n    \"ddd\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.25\n    },\n    \"eee\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.10\n    },\n    \"M\": 42\n  }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.000668915163416006
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 373,
+        "total_token_count": 3934
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n  \"model_name\": \"CVG64\",\n  \"table\": {\n    \"A\": {\n      \"MIN\": 0.76,\n      \"NOM\": 0.86,\n      \"MAX\": 0.96\n    },\n    \"A1\": {\n      \"MIN\": 0.15,\n      \"NOM\": 0.20,\n      \"MAX\": 0.25\n    },\n    \"A2\": {\n      \"MIN\": 0.61,\n      \"NOM\": 0.66,\n      \"MAX\": 0.71\n    },\n    \"D/E\": 4.00,\n    \"D1/E1\": 2.80,\n    \"e\": 0.40,\n    \"\u00f8b\": {\n      \"MIN\": 0.20,\n      \"NOM\": 0.25,\n      \"MAX\": 0.30\n    },\n    \"ccc\": {\n      \"MAX\": 0.10\n    },\n    \"ddd\": {\n      \"MAX\": 0.08\n    },\n    \"eee\": {\n      \"MAX\": 0.15\n    },\n    \"fff\": {\n      \"MAX\": 0.05\n    },\n    \"ZD/ZE\": 0.60,\n    \"M\": 8\n  }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.009288130930183157
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 331,
+        "total_token_count": 3892
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n  \"model_name\": \"FF1136/FFG1136/FFV1136\",\n  \"table\": {\n    \"A\": {\n      \"MIN\": 2.85,\n      \"NOM\": null,\n      \"MAX\": 3.25\n    },\n    \"A1\": {\n      \"MIN\": 0.40,\n      \"NOM\": 0.50,\n      \"MAX\": 0.60\n    },\n    \"A2\": {\n      \"MIN\": 0.90,\n      \"NOM\": null,\n      \"MAX\": 1.40\n    },\n    \"D/E\": 35.00,\n    \"D1/E1\": 33.00,\n    \"e\": 1.00,\n    \"\u00f8b\": {\n      \"MIN\": 0.50,\n      \"NOM\": 0.60,\n      \"MAX\": 0.70\n    },\n    \"aaa\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.20\n    },\n    \"ccc\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.35\n    },\n    \"ddd\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.30\n    },\n    \"eee\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.10\n    },\n    \"M\": 34\n  }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.008750389019648233
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 384,
+        "total_token_count": 3945
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n  \"model_name\": \"FF(G)1759\",\n  \"table\": {\n    \"A\": {\n      \"MIN\": 2.80,\n      \"NOM\": null,\n      \"MAX\": 3.50\n    },\n    \"A1\": {\n      \"MIN\": 0.40,\n      \"NOM\": 0.50,\n      \"MAX\": 0.60\n    },\n    \"A2\": {\n      \"MIN\": 1.10,\n      \"NOM\": null,\n      \"MAX\": 1.50\n    },\n    \"D/E\": 42.50,\n    \"D1/E1\": 41.00,\n    \"e\": 1.00,\n    \"\u00f8b\": {\n      \"MIN\": 0.50,\n      \"NOM\": 0.60,\n      \"MAX\": 0.70\n    },\n    \"aaa\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.25\n    },\n    \"bbb\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.25\n    },\n    \"ddd\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.25\n    },\n    \"eee\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.10\n    },\n    \"M\": 42\n  }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.006965496584813013
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 373,
+        "total_token_count": 3934
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n  \"model_name\": \"CS(G)324/CS(G)A324/CS(G)325\",\n  \"table\": {\n    \"A\": {\n      \"MIN\": 1.26,\n      \"NOM\": 1.36,\n      \"MAX\": 1.50\n    },\n    \"A1\": {\n      \"MIN\": 0.25,\n      \"NOM\": 0.30,\n      \"MAX\": 0.35\n    },\n    \"A2\": {\n      \"MIN\": 1.01,\n      \"NOM\": 1.06,\n      \"MAX\": 1.11\n    },\n    \"D/E\": 15.00,\n    \"D1/E1\": 13.60,\n    \"e\": 0.80,\n    \"\u00f8b\": {\n      \"MIN\": 0.40,\n      \"NOM\": 0.45,\n      \"MAX\": 0.50\n    },\n    \"bbb\": {\n      \"MAX\": 0.20\n    },\n    \"ddd\": {\n      \"MAX\": 0.20\n    },\n    \"eee\": {\n      \"MAX\": 0.15\n    },\n    \"fff\": {\n      \"MAX\": 0.08\n    },\n    \"M\": 18\n  }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.0035853445355144065
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 341,
+        "total_token_count": 3902
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n    \"model\": \"XC7K160T\",\n    \"table\": {\n        \"A\": {\n            \"MIN\": 0.55,\n            \"NOM\": 0.735,\n            \"MAX\": null\n        },\n        \"A1\": {\n            \"MIN\": 8.5,\n            \"NOM\": 8.75,\n            \"MAX\": 8.9\n        },\n        \"A2\": {\n            \"MIN\": 6.5,\n            \"NOM\": null,\n            \"MAX\": 8.75\n        },\n        \"D/E\": 16.05,\n        \"D1/E1\": 12.05,\n        \"e\": 2.5,\n        \"\u00f8b\": {\n            \"MIN\": 0,\n            \"NOM\": 0.5,\n            \"MAX\": null\n        },\n        \"aaa\": {\n            \"MIN\": 3.95,\n            \"NOM\": null,\n            \"MAX\": 5.45\n        },\n        \"ccc\": {\n            \"MIN\": 0,\n            \"NOM\": null,\n            \"MAX\": 0.5\n        },\n        \"ddd\": {\n            \"MIN\": 3.6,\n            \"NOM\": null,\n            \"MAX\": 3.95\n        },\n        \"eee\": {\n            \"MIN\": 6.4,\n            \"NOM\": null,\n            \"MAX\": 8\n        },\n        \"M\": 8.54\n    }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.06983082709105118
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 368,
+        "total_token_count": 3929
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n    \"model_name\": \"FB(G)676/FBV676\",\n    \"table\": {\n        \"A\": {\n            \"MIN\": 6.45,\n            \"NOM\": 6.5,\n            \"MAX\": 6.45\n        },\n        \"A1\": {\n            \"MIN\": 3.15,\n            \"NOM\": 0.00,\n            \"MAX\": 2.25\n        },\n        \"A2\": {\n            \"MIN\": 0.00,\n            \"NOM\": 0.10,\n            \"MAX\": 6.80\n        },\n        \"D/E\": 7.80,\n        \"D1/E1\": 7.80,\n        \"e\": 3.85,\n        \"\u00f8b\": {\n            \"MIN\": 0.00,\n            \"NOM\": 0.50,\n            \"MAX\": 5.35\n        },\n        \"aaa\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": null\n        },\n        \"ccc\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": null\n        },\n        \"ddd\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": null\n        },\n        \"eee\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": null\n        },\n        \"M\": 8.05\n    }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.021310122678596475
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 369,
+        "total_token_count": 3930
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n    \"model_name\": \"CS(G)324\",\n    \"table\": {\n        \"A\": {\n            \"MIN\": 1.00,\n            \"NOM\": null,\n            \"MAX\": 1.50\n        },\n        \"A1\": {\n            \"MIN\": 0.25,\n            \"NOM\": 0.30,\n            \"MAX\": 0.40\n        },\n        \"A2\": {\n            \"MIN\": 0.75,\n            \"NOM\": 0.90,\n            \"MAX\": 1.10\n        },\n        \"D/E\": 15.00,\n        \"D1/E1\": 13.60,\n        \"e\": 0.80,\n        \"\u00f8b\": {\n            \"MIN\": 0.40,\n            \"NOM\": 0.45,\n            \"MAX\": 0.50\n        },\n        \"bbb\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": 0.20\n        },\n        \"ddd\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": 0.20\n        },\n        \"eee\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": 0.15\n        },\n        \"fff\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": 0.08\n        },\n        \"M\": 18\n    }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.007134786311616289
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 376,
+        "total_token_count": 3937
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n  \"model_name\": \"EF1136\",\n  \"table\": {\n    \"A\": {\n      \"MIN\": 2.70,\n      \"NOM\": null,\n      \"MAX\": 3.40\n    },\n    \"A1\": {\n      \"MIN\": 0.40,\n      \"NOM\": 0.50,\n      \"MAX\": 0.60\n    },\n    \"A2\": {\n      \"MIN\": 2.30,\n      \"NOM\": null,\n      \"MAX\": 2.80\n    },\n    \"D/E\": 35.00,\n    \"D1/E1\": 33.00,\n    \"e\": 1.00,\n    \"\u00f8b\": {\n      \"MIN\": 0.50,\n      \"NOM\": 0.60,\n      \"MAX\": 0.70\n    },\n    \"aaa\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.20\n    },\n    \"ccc\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.35\n    },\n    \"ddd\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.30\n    },\n    \"eee\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.10\n    },\n    \"M\": 34\n  }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.004388217668275575
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 370,
+        "total_token_count": 3931
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n  \"model_name\": \"XC7K325T\",\n  \"table\": {\n    \"A\": {\n      \"MIN\": null,\n      \"NOM\": 0.735,\n      \"MAX\": 0.55\n    },\n    \"A1\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": null\n    },\n    \"A2\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": null\n    },\n    \"D/E\": 20.92,\n    \"D1/E1\": 16.92,\n    \"e\": null,\n    \"\u00f8b\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": null\n    },\n    \"aaa\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": null\n    },\n    \"ccc\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": null\n    },\n    \"ddd\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": null\n    },\n    \"eee\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": null\n    },\n    \"M\": null\n  }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.011563115732796888
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 319,
+        "total_token_count": 3880
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n  \"model_name\": \"FB(G)676/FBV676 XC7K410T\",\n  \"table\": {\n    \"A\": {\n      \"MIN\": 0.735,\n      \"MAX\": 0.55\n    },\n    \"A1\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": null\n    },\n    \"A2\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": null\n    },\n    \"D/E\": 20.92,\n    \"D1/E1\": 16.92,\n    \"e\": null,\n    \"\u00f8b\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": null\n    },\n    \"aaa\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": null\n    },\n    \"ccc\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": null\n    },\n    \"ddd\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": null\n    },\n    \"eee\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": null\n    },\n    \"M\": null\n  }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.011496204963097206
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 325,
+        "total_token_count": 3886
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n    \"model_name\": \"FF(G)484\",\n    \"table\": {\n        \"A\": {\n            \"MIN\": 2.64,\n            \"NOM\": 2.84,\n            \"MAX\": 3.04\n        },\n        \"A1\": {\n            \"MIN\": 0.4,\n            \"NOM\": 0.5,\n            \"MAX\": 0.6\n        },\n        \"A2\": {\n            \"MIN\": 2.14,\n            \"NOM\": 2.34,\n            \"MAX\": 2.54\n        },\n        \"D/E\": 23.00,\n        \"D1/E1\": 21.00,\n        \"e\": 1.00,\n        \"\u00f8b\": {\n            \"MIN\": 0.5,\n            \"NOM\": 0.6,\n            \"MAX\": 0.7\n        },\n        \"aaa\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": 0.2\n        },\n        \"ccc\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": 0.25\n        },\n        \"ddd\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": 0.25\n        },\n        \"eee\": {\n            \"MIN\": null,\n            \"NOM\": null,\n            \"MAX\": 0.1\n        },\n        \"M\": 22\n    }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.002038439275116049
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 372,
+        "total_token_count": 3933
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n  \"model_name\": \"FF(G)1154/1155\",\n  \"table\": {\n    \"A\": {\n      \"MIN\": 2.70,\n      \"NOM\": null,\n      \"MAX\": 3.50\n    },\n    \"A1\": {\n      \"MIN\": 0.40,\n      \"NOM\": 0.50,\n      \"MAX\": 0.60\n    },\n    \"A2\": {\n      \"MIN\": 0.90,\n      \"NOM\": null,\n      \"MAX\": 1.50\n    },\n    \"D/E\": 35.00,\n    \"D1/E1\": 33.00,\n    \"e\": 1.00,\n    \"\u00f8b\": {\n      \"MIN\": 0.50,\n      \"NOM\": 0.60,\n      \"MAX\": 0.70\n    },\n    \"aaa\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.20\n    },\n    \"ccc\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.35\n    },\n    \"ddd\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.25\n    },\n    \"eee\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.10\n    },\n    \"M\": 34\n  }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.00381059242934777
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 378,
+        "total_token_count": 3939
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n  \"model_name\": \"FB(G)676/FBV676\",\n  \"table\": {\n    \"A\": {\n      \"MIN\": null,\n      \"NOM\": 1.30,\n      \"MAX\": null\n    },\n    \"A1\": {\n      \"MIN\": null,\n      \"NOM\": 0.30,\n      \"MAX\": null\n    },\n    \"A2\": {\n      \"MIN\": null,\n      \"NOM\": 1.00,\n      \"MAX\": null\n    },\n    \"D/E\": 17.00,\n    \"D1/E1\": 17.00,\n    \"e\": 0.80,\n    \"\u00f8b\": {\n      \"MIN\": 0.40,\n      \"NOM\": 0.45,\n      \"MAX\": 0.50\n    },\n    \"aaa\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.15\n    },\n    \"ccc\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.10\n    },\n    \"ddd\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.08\n    },\n    \"eee\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.15\n    },\n    \"M\": 0.30\n  }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.047007267291729264
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 364,
+        "total_token_count": 3925
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n    \"model_name\": \"FB(G)676/FBV676\",\n    \"table\": {\n        \"A\": {\n            \"MIN\": 2.14,\n            \"NOM\": 2.34,\n            \"MAX\": 2.54\n        },\n        \"A1\": {\n            \"MIN\": 0.4,\n            \"NOM\": 0.5,\n            \"MAX\": 0.6\n        },\n        \"A2\": {\n            \"MIN\": 0.88,\n            \"NOM\": 0.98,\n            \"MAX\": 1.08\n        },\n        \"D/E\": 27.00,\n        \"D1/E1\": 25.00,\n        \"e\": 1.00,\n        \"\u00f8b\": {\n            \"MIN\": 0.5,\n            \"NOM\": 0.6,\n            \"MAX\": 0.7\n        },\n        \"aaa\": {\n            \"MAX\": 0.2\n        },\n        \"ccc\": {\n            \"MAX\": 0.25\n        },\n        \"ddd\": {\n            \"MAX\": 0.25\n        },\n        \"eee\": {\n            \"MAX\": 0.1\n        },\n        \"M\": 26\n    }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.004399648364286245
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 322,
+        "total_token_count": 3883
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n  \"model_name\": \"FF(G)1154/1155 (VIRTEX-6: XC6VHX380T)\",\n  \"table\": {\n    \"A\": {\n      \"MIN\": 2.70,\n      \"NOM\": null,\n      \"MAX\": 3.50\n    },\n    \"A1\": {\n      \"MIN\": 0.40,\n      \"NOM\": 0.50,\n      \"MAX\": 0.60\n    },\n    \"A2\": {\n      \"MIN\": 0.90,\n      \"NOM\": null,\n      \"MAX\": 1.50\n    },\n    \"D/E\": 35.00,\n    \"D1/E1\": 33.00,\n    \"e\": 1.00,\n    \"\u00f8b\": {\n      \"MIN\": 0.50,\n      \"NOM\": 0.60,\n      \"MAX\": 0.70\n    },\n    \"aaa\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.25\n    },\n    \"ccc\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.35\n    },\n    \"ddd\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.25\n    },\n    \"eee\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.10\n    },\n    \"M\": 34\n  }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.00256023358325569
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 392,
+        "total_token_count": 3953
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n  \"model_name\": \"FF(G)484/FFV484\",\n  \"table\": {\n    \"A\": {\n      \"MIN\": 2.35,\n      \"NOM\": null,\n      \"MAX\": 2.86\n    },\n    \"A1\": {\n      \"MIN\": 0.4,\n      \"NOM\": 0.5,\n      \"MAX\": 0.6\n    },\n    \"A2\": {\n      \"MIN\": 0.65,\n      \"NOM\": null,\n      \"MAX\": 0.9\n    },\n    \"D/E\": 23.00,\n    \"D1/E1\": 21.00,\n    \"e\": 1.00,\n    \"\u00f8b\": {\n      \"MIN\": 0.5,\n      \"NOM\": 0.6,\n      \"MAX\": 0.7\n    },\n    \"aaa\": null,\n    \"ccc\": null,\n    \"ddd\": null,\n    \"eee\": null,\n    \"M\": 22\n  }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.0055492777056461865
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 267,
+        "total_token_count": 3828
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n  \"model_name\": \"CS280/CSG280\",\n  \"table\": {\n    \"A\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 1.20\n    },\n    \"A1\": {\n      \"MIN\": 0.20,\n      \"NOM\": null,\n      \"MAX\": null\n    },\n    \"A2\": {\n      \"MIN\": 0.55,\n      \"NOM\": null,\n      \"MAX\": null\n    },\n    \"D/E\": 16.00,\n    \"D1/E1\": 14.40,\n    \"e\": 0.80,\n    \"\u00f8b\": {\n      \"MIN\": 0.35,\n      \"NOM\": 0.40,\n      \"MAX\": 0.45\n    },\n    \"bbb\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.10\n    },\n    \"ccc\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.12\n    },\n    \"ddd\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.15\n    },\n    \"eee\": {\n      \"MIN\": null,\n      \"NOM\": null,\n      \"MAX\": 0.08\n    },\n    \"M\": 19\n  }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.002017252956592273
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 359,
+        "total_token_count": 3920
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n    \"model_name\": \"TS144/TSG144\",\n    \"table\": {\n        \"A\": {\n            \"MIN\": 1.00,\n            \"NOM\": null,\n            \"MAX\": 1.40\n        },\n        \"A1\": {\n            \"MIN\": 0.25,\n            \"NOM\": 0.30,\n            \"MAX\": 0.40\n        },\n        \"A2\": {\n            \"MIN\": 0.75,\n            \"NOM\": 0.90,\n            \"MAX\": 1.00\n        },\n        \"D/E\": 10.00,\n        \"D1/E1\": 8.80,\n        \"e\": 0.80,\n        \"\u00f8b\": {\n            \"MIN\": 0.35,\n            \"NOM\": 0.40,\n            \"MAX\": 0.45\n        },\n        \"bbb\": {\n            \"MAX\": 0.20\n        },\n        \"ddd\": {\n            \"MAX\": 0.10\n        },\n        \"eee\": {\n            \"MAX\": 0.15\n        },\n        \"fff\": {\n            \"MAX\": 0.08\n        },\n        \"M\": 12\n    }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.005845554867146178
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 322,
+        "total_token_count": 3883
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "```json\n{\n    \"model_name\": \"CS280/CSG280 (FLEX TAPE)\",\n    \"table\": {\n        \"A\": {\n            \"MAX\": 1.20\n        },\n        \"A1\": {\n            \"MIN\": 0.20\n        },\n        \"A2\": {\n            \"MIN\": 0.65\n        },\n        \"D/E\": 16.00,\n        \"D1/E1\": 14.40,\n        \"e\": 0.80,\n        \"\u00f8b\": {\n            \"MIN\": 0.40,\n            \"NOM\": 0.45,\n            \"MAX\": 0.50\n        },\n        \"bbb\": {\n            \"MAX\": 0.10\n        },\n        \"ccc\": {\n            \"MAX\": 0.12\n        },\n        \"ddd\": {\n            \"MAX\": 0.15\n        },\n        \"eee\": {\n            \"MAX\": 0.08\n        },\n        \"M\": 19\n    }\n}\n```"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.014385450066942158
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 3561,
+        "candidates_token_count": 264,
+        "total_token_count": 3825
+      },
+      "model_version": "gemini-2.0-flash-001"
+    }),
+)
+-----

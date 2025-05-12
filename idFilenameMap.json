@@ -1,0 +1,324 @@
+{
+    "FB484": [
+        "./jpgs/obg0103_page_2.jpg",
+        "./jpgs/obg0103_page_3.jpg",
+        "./jpgs/obg0103_page_4.jpg",
+        "./jpgs/obg0103_page_5.jpg",
+        "./jpgs/obg0103_page_6.jpg",
+        "./jpgs/obg0103_page_2.jpg",
+        "./jpgs/obg0103_page_3.jpg",
+        "./jpgs/obg0103_page_4.jpg",
+        "./jpgs/obg0103_page_5.jpg",
+        "./jpgs/obg0103_page_6.jpg"
+    ],
+    "FBV484": [
+        "./jpgs/obg0103_page_2.jpg",
+        "./jpgs/obg0103_page_3.jpg",
+        "./jpgs/obg0103_page_4.jpg",
+        "./jpgs/obg0103_page_5.jpg",
+        "./jpgs/obg0103_page_6.jpg",
+        "./jpgs/obg0103_page_2.jpg",
+        "./jpgs/obg0103_page_3.jpg",
+        "./jpgs/obg0103_page_4.jpg",
+        "./jpgs/obg0103_page_5.jpg",
+        "./jpgs/obg0103_page_6.jpg"
+    ],
+    "CVG100": [
+        "./jpgs/obg0078_page_2.jpg",
+        "./jpgs/obg0078_page_2.jpg",
+        "./jpgs/obg0078_page_2.jpg"
+    ],
+    "FF1156": [
+        "./jpgs/obg0087_page_2.jpg",
+        "./jpgs/obg0087_page_3.jpg",
+        "./jpgs/obg0087_page_7.jpg",
+        "./jpgs/obg0087_page_6.jpg",
+        "./jpgs/obg0087_page_4.jpg",
+        "./jpgs/obg0087_page_5.jpg",
+        "./jpgs/obg0087_page_2.jpg",
+        "./jpgs/obg0087_page_3.jpg",
+        "./jpgs/obg0087_page_7.jpg",
+        "./jpgs/obg0087_page_6.jpg",
+        "./jpgs/obg0087_page_4.jpg",
+        "./jpgs/obg0087_page_5.jpg"
+    ],
+    "FFV1156": [
+        "./jpgs/obg0087_page_2.jpg",
+        "./jpgs/obg0087_page_3.jpg",
+        "./jpgs/obg0087_page_7.jpg",
+        "./jpgs/obg0087_page_6.jpg",
+        "./jpgs/obg0087_page_4.jpg",
+        "./jpgs/obg0087_page_5.jpg",
+        "./jpgs/obg0087_page_2.jpg",
+        "./jpgs/obg0087_page_3.jpg",
+        "./jpgs/obg0087_page_7.jpg",
+        "./jpgs/obg0087_page_6.jpg",
+        "./jpgs/obg0087_page_4.jpg",
+        "./jpgs/obg0087_page_5.jpg"
+    ],
+    "FF665": [
+        "./jpgs/obg0064_page_2.jpg",
+        "./jpgs/obg0064_page_2.jpg",
+        "./jpgs/obg0064_page_2.jpg"
+    ],
+    "FFG665": [
+        "./jpgs/obg0064_page_2.jpg",
+        "./jpgs/obg0064_page_2.jpg"
+    ],
+    "EF665": [
+        "./jpgs/obg0064_page_2.jpg",
+        "./jpgs/obg0064_page_2.jpg"
+    ],
+    "FFV665": [
+        "./jpgs/obg0064_page_2.jpg",
+        "./jpgs/obg0064_page_2.jpg"
+    ],
+    "FF675": [
+        "./jpgs/obg0082_page_2.jpg",
+        "./jpgs/obg0082_page_2.jpg",
+        "./jpgs/obg0082_page_2.jpg"
+    ],
+    "FFG675": [
+        "./jpgs/obg0082_page_2.jpg",
+        "./jpgs/obg0082_page_2.jpg"
+    ],
+    "FB676": [
+        "./jpgs/obg0100_page_9.jpg",
+        "./jpgs/obg0100_page_8.jpg",
+        "./jpgs/obg0100_page_9.jpg",
+        "./jpgs/obg0100_page_8.jpg",
+        "./jpgs/obg0100_page_5.jpg",
+        "./jpgs/obg0100_page_4.jpg",
+        "./jpgs/obg0100_page_6.jpg",
+        "./jpgs/obg0100_page_7.jpg",
+        "./jpgs/obg0100_page_3.jpg",
+        "./jpgs/obg0100_page_2.jpg"
+    ],
+    "FBV676": [
+        "./jpgs/obg0100_page_9.jpg",
+        "./jpgs/obg0100_page_8.jpg",
+        "./jpgs/obg0100_page_9.jpg",
+        "./jpgs/obg0100_page_8.jpg",
+        "./jpgs/obg0100_page_5.jpg",
+        "./jpgs/obg0100_page_4.jpg",
+        "./jpgs/obg0100_page_6.jpg",
+        "./jpgs/obg0100_page_7.jpg",
+        "./jpgs/obg0100_page_3.jpg",
+        "./jpgs/obg0100_page_2.jpg"
+    ],
+    "CPG196": [
+        "./jpgs/obg0093_page_2.jpg",
+        "./jpgs/obg0093_page_2.jpg",
+        "./jpgs/obg0093_page_2.jpg"
+    ],
+    "FF1923": [
+        "./jpgs/obg0094_page_2.jpg",
+        "./jpgs/obg0094_page_3.jpg",
+        "./jpgs/obg0094_page_2.jpg",
+        "./jpgs/obg0094_page_3.jpg"
+    ],
+    "FF1924": [
+        "./jpgs/obg0094_page_2.jpg",
+        "./jpgs/obg0094_page_3.jpg",
+        "./jpgs/obg0094_page_2.jpg",
+        "./jpgs/obg0094_page_3.jpg"
+    ],
+    "FB900": [
+        "./jpgs/obg0101_page_3.jpg",
+        "./jpgs/obg0101_page_2.jpg",
+        "./jpgs/obg0101_page_4.jpg",
+        "./jpgs/obg0101_page_3.jpg",
+        "./jpgs/obg0101_page_2.jpg",
+        "./jpgs/obg0101_page_4.jpg"
+    ],
+    "FBV900": [
+        "./jpgs/obg0101_page_3.jpg",
+        "./jpgs/obg0101_page_2.jpg",
+        "./jpgs/obg0101_page_4.jpg",
+        "./jpgs/obg0101_page_3.jpg",
+        "./jpgs/obg0101_page_2.jpg",
+        "./jpgs/obg0101_page_4.jpg"
+    ],
+    "FF784": [
+        "./jpgs/obg0088_page_2.jpg",
+        "./jpgs/obg0088_page_2.jpg",
+        "./jpgs/obg0088_page_2.jpg"
+    ],
+    "FFG784": [
+        "./jpgs/obg0088_page_2.jpg",
+        "./jpgs/obg0088_page_2.jpg"
+    ],
+    "FFV784": [
+        "./jpgs/obg0088_page_2.jpg",
+        "./jpgs/obg0088_page_2.jpg"
+    ],
+    "FF1738": [
+        "./jpgs/obg0066_page_2.jpg",
+        "./jpgs/obg0066_page_3.jpg",
+        "./jpgs/obg0066_page_2.jpg",
+        "./jpgs/obg0066_page_3.jpg"
+    ],
+    "FT64": [
+        "./jpgs/obg0085_page_2.jpg",
+        "./jpgs/obg0085_page_2.jpg",
+        "./jpgs/obg0085_page_2.jpg"
+    ],
+    "FTG64": [
+        "./jpgs/obg0085_page_2.jpg",
+        "./jpgs/obg0085_page_2.jpg"
+    ],
+    "FF1153": [
+        "./jpgs/obg0063_page_2.jpg",
+        "./jpgs/obg0063_page_2.jpg",
+        "./jpgs/obg0063_page_2.jpg"
+    ],
+    "FFG1153": [
+        "./jpgs/obg0063_page_2.jpg",
+        "./jpgs/obg0063_page_2.jpg"
+    ],
+    "FFV1153": [
+        "./jpgs/obg0063_page_2.jpg",
+        "./jpgs/obg0063_page_2.jpg"
+    ],
+    "FF323": [
+        "./jpgs/obg0080_page_2.jpg",
+        "./jpgs/obg0080_page_2.jpg",
+        "./jpgs/obg0080_page_2.jpg"
+    ],
+    "FFG323": [
+        "./jpgs/obg0080_page_2.jpg",
+        "./jpgs/obg0080_page_2.jpg"
+    ],
+    "FFV323": [
+        "./jpgs/obg0080_page_2.jpg",
+        "./jpgs/obg0080_page_2.jpg"
+    ],
+    "EF1738": [
+        "./jpgs/obg0091_page_2.jpg",
+        "./jpgs/obg0091_page_3.jpg",
+        "./jpgs/obg0091_page_2.jpg",
+        "./jpgs/obg0091_page_3.jpg",
+        "./jpgs/obg0091_page_2.jpg",
+        "./jpgs/obg0091_page_3.jpg"
+    ],
+    "CS225": [
+        "./jpgs/obg0083_page_2.jpg"
+    ],
+    "EF1153": [
+        "./jpgs/obg0092_page_2.jpg",
+        "./jpgs/obg0092_page_2.jpg",
+        "./jpgs/obg0092_page_2.jpg"
+    ],
+    "FF900": [
+        "./jpgs/obg0102_page_2.jpg",
+        "./jpgs/obg0102_page_2.jpg",
+        "./jpgs/obg0102_page_3.jpg"
+    ],
+    "FF901": [
+        "./jpgs/obg0102_page_2.jpg",
+        "./jpgs/obg0102_page_2.jpg",
+        "./jpgs/obg0102_page_3.jpg"
+    ],
+    "FFV900": [
+        "./jpgs/obg0102_page_2.jpg",
+        "./jpgs/obg0102_page_2.jpg",
+        "./jpgs/obg0102_page_3.jpg"
+    ],
+    "FFV901": [
+        "./jpgs/obg0102_page_2.jpg",
+        "./jpgs/obg0102_page_2.jpg",
+        "./jpgs/obg0102_page_3.jpg"
+    ],
+    "7K325T": [
+        "./jpgs/obg0101_page_3.jpg"
+    ],
+    "7K410T": [
+        "./jpgs/obg0101_page_4.jpg"
+    ],
+    "CS484": [
+        "./jpgs/obg0068_page_2.jpg",
+        "./jpgs/obg0068_page_2.jpg"
+    ],
+    "CVG64": [
+        "./jpgs/obg0079_page_2.jpg",
+        "./jpgs/obg0079_page_2.jpg"
+    ],
+    "FF1136": [
+        "./jpgs/obg0065_page_2.jpg",
+        "./jpgs/obg0065_page_2.jpg"
+    ],
+    "EF1136": [
+        "./jpgs/obg0090_page_2.jpg",
+        "./jpgs/obg0090_page_2.jpg"
+    ],
+    "XC7K325T": [
+        "./jpgs/obg0100_page_6.jpg"
+    ],
+    "XC7K410T": [
+        "./jpgs/obg0100_page_7.jpg"
+    ],
+    "XC7A200T": [
+        "./jpgs/obg0100_page_3.jpg"
+    ],
+    "CS280": [
+        "./jpgs/obg0067_page_2.jpg",
+        "./jpgs/obg0067_page_3.jpg",
+        "./jpgs/obg0067_page_2.jpg",
+        "./jpgs/obg0067_page_3.jpg"
+    ],
+    "TS144": [
+        "./jpgs/obg0084_page_2.jpg",
+        "./jpgs/obg0084_page_2.jpg"
+    ],
+    "CS225\nCSGA225": [
+        "./jpgs/obg0083_page_2.jpg"
+    ],
+    "CSG484": [
+        "./jpgs/obg0068_page_2.jpg"
+    ],
+    "CP236": [
+        "./jpgs/obg0097_page_2.jpg"
+    ],
+    "FF1759": [
+        "./jpgs/obg0086_page_2.jpg",
+        "./jpgs/obg0086_page_3.jpg"
+    ],
+    "FFG1136": [
+        "./jpgs/obg0065_page_2.jpg"
+    ],
+    "FFV1136": [
+        "./jpgs/obg0065_page_2.jpg"
+    ],
+    "CS324": [
+        "./jpgs/obg0081_page_3.jpg",
+        "./jpgs/obg0081_page_2.jpg"
+    ],
+    "CSA324": [
+        "./jpgs/obg0081_page_3.jpg"
+    ],
+    "CS325": [
+        "./jpgs/obg0081_page_3.jpg"
+    ],
+    "FF484": [
+        "./jpgs/obg0089_page_3.jpg",
+        "./jpgs/obg0089_page_2.jpg"
+    ],
+    "FF1154": [
+        "./jpgs/obg0095_page_2.jpg",
+        "./jpgs/obg0095_page_3.jpg"
+    ],
+    "FF1155": [
+        "./jpgs/obg0095_page_2.jpg",
+        "./jpgs/obg0095_page_3.jpg"
+    ],
+    "FFV484": [
+        "./jpgs/obg0089_page_2.jpg"
+    ],
+    "CSG280": [
+        "./jpgs/obg0067_page_2.jpg",
+        "./jpgs/obg0067_page_3.jpg"
+    ],
+    "TSG144": [
+        "./jpgs/obg0084_page_2.jpg"
+    ]
+}
