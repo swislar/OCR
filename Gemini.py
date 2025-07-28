@@ -7,11 +7,12 @@ import google.generativeai as genai
 from dotenv import load_dotenv
 import csv
 import re
+import shutil
 from Utils import Utils
 
 
-class geminiFlashLite:
-    def __init__(self, mappings_file=None):
+class GeminiFlash:
+    def __init__(self, model_name="gemini-2.5-flash", cache='./cache.json', image_folder='./all_images', cache_refresh=False):
         load_dotenv()
 
         api_key = os.getenv("GOOGLE_API_KEY")
@@ -20,121 +21,197 @@ class geminiFlashLite:
                 "GOOGLE_API_KEY environment variable not set. Please set it.")
 
         genai.configure(api_key=api_key)
-        self.MODEL_NAME = 'gemini-2.0-flash-lite-001'
-        self.model = genai.GenerativeModel(model_name=self.MODEL_NAME)
-        if not mappings_file:
-            self.mappings = {}
-        else:
-            with open(mappings_file, 'r') as f:
-                loaded_mappings = json.load(f)
-            self.mappings = loaded_mappings
 
-    def getMapping(self, targetId):
-        print("Processing mappings...")
-        # Search through mappings
-        print("Looking through cache...")
-        targetIds = Utils.standardize_id(targetId)
-        for key, val in self.mappings.items():
-            if key in targetIds:
-                return self.mappings[key][0]
+        # Make these variables private
+        self.cache_path = cache
+        self.image_folder = image_folder
+        self.MODEL_NAME = model_name
+        self.cache_refresh = cache_refresh
 
-        initial_history = [
-            {'role': 'user', 'parts': [
-                "I will be providing you an image. Help me to extract the model name found at the top of the image. Only include the model name in your reponse without any other text."]},
-        ]
-        chat = self.model.start_chat(history=initial_history)
+        system_instruction = """
+        You are a data extraction AI. Your task is to extract information from a technical document into a raw JSON object.
+        Follow these rules:
+            1.  **`id`**: Extract the complete identification string from the document's top header. If there are sub-headers, include them in the ID. This string might contain parentheses, slashes, or other characters.
+            2.  **`table`**: Extract the table data in the bottom-left portion of the image. Process this table to create a JSON object.
+            *   For each row in the table, use the label from the first column(e.g., 'A', 'A1', 'D/E', 'øb') as a key in your main `table` object.
+            *   The value for each key depends on the row's content:
+                * **Case 1 (Multiple Columns): ** If the row has values for "MIN", "NOM", and / or "MAX", the value should be a ** nested object ** with `MIN`, `NOM`, and `MAX` as keys. Extract the corresponding numeric values. If a value for MIN, NOM, or MAX is not present or is blank, its value in the JSON must be `null`.
+                * **Case 2 (Single Value): ** If the row has only one primary value(like 'D/E' or 'M' in the example), the value should be that single ** number ** directly.
+            3. ** Output Format**:
+                *   Your entire response MUST be a single, raw JSON object.
+                *   Do NOT include any surrounding text, explanations, or markdown formatting like ```json.
+                *   The JSON object must have two top-level keys: `id` and `table`.
+                *   The value for `id` should be the string extracted from the header.
+                *   The value for `table` must be a single JSON object(not an array). The keys of this object are the labels from the table rows.
+                *   All extracted text should be trimmed of leading/trailing whitespace.
+            4. ** Error Handling**:
+                * If the ID is not found, use `"id": null`.
+                * If the table is not found, use `"table": {}`.
 
-        print("Looking through files...")
-        cachedIds = set(item for sublist in self.mappings.values()
-                        for item in sublist)
+            Example of required output:
+            "CP132/CPG132": {
+                "id": "CP132/CPG132",
+                "table": {
+                    "A": {
+                        "MIN": null,
+                        "NOM": 1.0,
+                        "MAX": 1.1
+                    },
+                    "A1": {
+                        "MIN": 0.15,
+                        "NOM": 0.2,
+                        "MAX": 0.25
+                    },
+                    "D/E": {
+                        "MIN": 7.9,
+                        "NOM": 8.0,
+                        "MAX": 8.1
+                    },
+                    "D1/E1": 6.5,
+                    "e": 0.5,
+                    "øb": {
+                        "MIN": 0.25,
+                        "NOM": 0.3,
+                        "MAX": 0.35
+                    },
+                    "ccc": {
+                        "MIN": null,
+                        "NOM": null,
+                        "MAX": 0.1
+                    },
+                    "ddd": {
+                        "MIN": null,
+                        "NOM": null,
+                        "MAX": 0.08
+                    },
+                    "eee": {
+                        "MIN": null,
+                        "NOM": null,
+                        "MAX": 0.15
+                    },
+                    "ZD/ZE": {
+                        "MIN": 0.6,
+                        "NOM": 0.75,
+                        "MAX": 0.9
+                    },
+                    "M": 14
+                }
+            }
+        """
 
-        idFound = False
-        for filename in os.listdir("./jpgs"):
-            image_path = os.path.join("./jpgs", filename)
-            # Skip if mapping is already stored
-            if image_path in cachedIds:
-                continue
+        self.model = genai.GenerativeModel(
+            model_name=self.MODEL_NAME, system_instruction=system_instruction)
+        # self.chat = self.model.start_chat(history=[])
 
-            img = Image.open(image_path)
-            img = Utils.process_image(img)
-            id_list = self.extractId(chat, img)
+        try:
+            with open(cache, 'r', encoding='utf-8') as f:
+                self.cache = json.load(f)
+        except FileNotFoundError:
+            print(f"Cache file '{cache}' not found. Initializing a new cache.")
+            self.cache = {}
+        except json.JSONDecodeError:
+            print(
+                f"Cache file '{cache}' is empty or not valid JSON. Initializing a new cache.")
+            self.cache = {}
 
-            # update mappings
-            for id in id_list:
-                if id in self.mappings:  # Appends the full pathname
-                    self.mappings[id].append(image_path)
-                else:
-                    self.mappings[id] = [image_path]
+        if self.refresh_cache:
+            self.refresh_cache()
+        return
 
-            idFound = False
-            for processedTargetId in targetIds:
-                if processedTargetId in id_list:
-                    idFound = True
-                    break
-            if idFound:
-                break
+    def get_similar_id(self, target_id):
+        if (matched_id := self.match_id(target_id)) and self.cache.keys():
+            return matched_id
+        return None
 
-        # save mappings
-        save_dir = os.path.dirname("idFilenameMap.json")
-        if save_dir and not os.path.exists(save_dir):
-            os.makedirs(save_dir)
+    def match_id(self, target_id):
+        best_match_id = []
+        for id, dict_object in self.cache.items():
+            best_match_id.append(
+                (id, dict_object, Utils.similarity_score(id, target_id)))
+        best_match_id.sort(key=lambda x: x[2], reverse=True)
 
-        with open("idFilenameMap.json", 'w') as f:
-            json.dump(self.mappings, f, indent=4)
-
-        if idFound:
-            return image_path
+        if best_match_id[0][2] >= 85:
+            print("Best score:", best_match_id[0][2])
+            return self.cache[best_match_id[0][0]]
         else:
             return None
 
-    def extractId(self, chat, img):
-        print("Querying Id from bot")
-        current_message_content = [
-            img
-        ]
-        response = chat.send_message(current_message_content)
-        id = response.text
-        return Utils.standardize_id(id)
-
-    def extractImageTable(self, targetId):
-        path = self.getMapping(targetId)
-        if not path:
-            print("Image with correct targetID not found.")
-            return {"status": 404}
-
-        initial_history = [
-            {'role': 'user', 'parts': [
-                "I will be providing you an image. Help me to extract the table (with the key for json as 'table') from the bottom left of the image in JSON for futher computation. Also include the model name found at the top of the image. The primary keys to use are the Symbols on the left column (A, A1, A2, D/E, D1/E1, e, øb, aaa, ccc, ddd, eee, M) and the secondary keys to use are MIN, NOM, MAX if there are multiple values for these fields. For example, primary key D/E, D_1/E_1, e & M only has 1 column and therefore, do not include secondary keys for them (Do not have nested keys of the same key). Ignore the last column named NOTE."]},
-        ]
-
-        current_text_input = "Only provide me with the table data in numerical form or null for columns with no values, without including any text in your response so that I can simply take your response and do json.loads(string)."
-
-        print("Extracting image table...")
+    def refresh_cache(self):
+        # Break the refresh if the ID is found with a high similarity score of > 85
+        print("Looking through images...")
         try:
-            chat = self.model.start_chat(history=initial_history)
+            script_dir = os.path.dirname(os.path.abspath(__file__))
+        except NameError:
+            script_dir = os.getcwd()
 
-            img = Image.open(path)
-            img = Utils.process_image(img)
+        processed_image_folder = os.path.join(script_dir, "processed_images")
+        os.makedirs(processed_image_folder, exist_ok=True)
 
-            current_message_content = [
-                current_text_input,
-                img
-            ]
+        for filename in os.listdir(self.image_folder):
+            path_to_check = os.path.join(processed_image_folder, filename)
+            image_path = os.path.join(self.image_folder, filename)
+            if os.path.exists(path_to_check) or os.path.isdir(image_path):
+                continue
+            else:
+                img = Image.open(image_path)
+                img = Utils.process_image(img)
+                img.save(os.path.join(processed_image_folder, filename))
 
-            response = chat.send_message(current_message_content)
+        cached_paths = set(value['image_path']
+                           for value in self.cache.values())
 
-            if not response.text:
-                print("FAIL", path)
-                if response.prompt_feedback and response.prompt_feedback.block_reason:
-                    print(
-                        f"Reason for blocking: {response.prompt_feedback.block_reason}")
+        undefined_tables_path = os.path.join(self.image_folder, "undefined")
+        os.makedirs(undefined_tables_path, exist_ok=True)
+        files_to_remove = []
+        files_to_move = []
+        for filename in os.listdir(processed_image_folder):
+            processed_image_path = os.path.join(
+                processed_image_folder, filename)
+            image_path = os.path.join(self.image_folder, filename)
 
-        except Exception as e:
-            print(f"An error occurred: {e}")
+            # Skip if mapping is already stored
+            if image_path in cached_paths:
+                print(f"{filename} already in cache!")
+                continue
 
-        # Log response
-        with open("history.log", "a") as log_file:
-            log_file.write(str(response))
-            log_file.write("\n-----\n")
+            img = Image.open(processed_image_path)
 
-        return response
+            print(f"Sending {filename} to bot...")
+            response = self.model.generate_content([img])
+            content = Utils.clean_json_response(response.text)
+
+            if not content:
+                print("Skipping:", filename)
+                files_to_move.append(image_path)
+                files_to_remove.append(processed_image_path)
+                continue
+
+            if not content['table']:
+                print("Empty table:", filename)
+                print(response.text)
+                files_to_move.append(image_path)
+                files_to_remove.append(processed_image_path)
+                if content['id'] in self.cache:
+                    continue
+
+            # Update cache
+            content["image_path"] = image_path
+            self.cache[content['id']] = content
+
+            # Save after every iteration for free tier only
+            try:
+                with open(self.cache_path, 'w', encoding='utf-8') as f:
+                    json.dump(self.cache, f, ensure_ascii=False,
+                              indent=4, sort_keys=False)
+                print("Save successful.")
+            except IOError as e:
+                print(
+                    f"Error: Could not write to file {self.cache_path}. Reason: {e}")
+
+        for file in files_to_move:
+            shutil.move(file, undefined_tables_path)
+
+        for file in files_to_remove:
+            os.remove(file)
+
+        return
