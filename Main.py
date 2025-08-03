@@ -11,7 +11,7 @@ if __name__ == "__main__":
     csv_file_path = str(sys.argv[1])
 
     bot = GeminiFlash(model_name="gemini-2.5-flash",
-                      cache='cache.json', cache_refresh=True)
+                      cache='cache.json', cache_refresh=False)
 
     data, result_csv, column_map = Utils.read_and_prepare_data(
         csv_file_path)
@@ -40,7 +40,7 @@ if __name__ == "__main__":
                         print(
                             f"Warning: Column '{clean_col_name}' from compute_data not in original CSV.")
         else:
-            print(f"{id_value} not found in images!")
+            print(f"{id_value} not found in images!\n\n")
 
     old_columns = result_csv.columns
     new_levels = []
@@ -58,3 +58,6 @@ if __name__ == "__main__":
 
     print("\n--- Original DataFrame (for output) ---")
     print(result_csv)
+
+    print('\n')
+    bot.estimate_cost()
