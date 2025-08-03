@@ -2,11 +2,9 @@ from PIL import Image, ImageEnhance, ImageFilter
 import pandas as pd
 import numpy as np
 from tqdm import tqdm
-import os
 import json
 import google.generativeai as genai
 from dotenv import load_dotenv
-import csv
 import re
 from rapidfuzz import fuzz
 import cv2
@@ -17,14 +15,14 @@ class Utils:
     def process_image(image):
         image = image.convert('L')  # Grayscale
         width, height = image.size
-        image = image.resize((width * 2, height * 2),
+        image = image.resize((width, height),
                              Image.Resampling.LANCZOS)  # Upscale
         width, height = image.size
         image = image.crop((0, 0, width, height * 0.975))
 
         open_cv_image = np.array(image)
-        block_size = 61
-        C = 6
+        block_size = 81
+        C = 7
 
         processed_cv_image = cv2.adaptiveThreshold(
             open_cv_image,
@@ -73,10 +71,8 @@ class Utils:
         start_search_y = int(height * (1 - search_area_ratio))
 
         consecutive_white_lines = 0
-        # This list will store the top y-coordinate of each band found, from bottom to top.
         found_band_positions = []
 
-        # Scan the entire search area from the bottom up to find all bands.
         for y in range(height - 1, start_search_y, -1):
             row = image_array[y, :]
             white_pixels_count = np.sum(row > brightness_threshold)
@@ -87,44 +83,33 @@ class Utils:
             if is_row_white:
                 consecutive_white_lines += 1
             else:
-                # If we just passed a thick white band, record its position.
                 if consecutive_white_lines >= required_consecutive_lines:
-                    # The top of the band is the first non-white line we hit.
                     band_top_y = y + 1
                     found_band_positions.append(band_top_y)
 
-                # Reset the counter as the streak is broken.
                 consecutive_white_lines = 0
 
-        # Edge case: Check if the search ended while inside a white band.
         if consecutive_white_lines >= required_consecutive_lines:
             band_top_y = start_search_y + 1
             found_band_positions.append(band_top_y)
 
-        # --- Decision Logic: Decide where to crop based on the number of bands found ---
-        crop_y = height  # Default to no crop
+        crop_y = height  
         total_bands_found = len(found_band_positions)
 
         if total_bands_found >= 2:
-            # We found 2 or more bands. Target the second one from the bottom.
-            # Since we scanned bottom-up, the second band is at index 1.
             crop_y = found_band_positions[1]
         elif total_bands_found == 1:
-            # We found exactly one band. Target that one.
-            # It's the first (and only) element in our list, at index 0.
             crop_y = found_band_positions[0]
         else:
             print("\n[!] Did not find any prominent white bands matching criteria.")
             return image
 
-        # Perform the crop
         crop_box = (0, 0, image.width, crop_y)
         cropped_image = image.crop(crop_box)
         return cropped_image
 
     @staticmethod
     def clean_json_response(response):
-        # Process response
         start_marker = '```json\n'
         end_marker = '\n```'
 
@@ -183,6 +168,12 @@ class Utils:
         result['Nom. Ball Width_nom'] = nom_ball_width
         result['Ball Quality_%'] = ball_quality
         return result
+
+    @staticmethod
+    def clean_id(id):
+        temp_string = re.sub(r"VIRTEX-\d+:\s*", "", id)
+        temp_string = temp_string.replace("(G)", "")
+        return temp_string
 
     @staticmethod
     def similarity_score(code_1, code_2):
