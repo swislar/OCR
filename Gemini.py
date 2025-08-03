@@ -1,12 +1,9 @@
-from PIL import Image, ImageEnhance, ImageFilter
-import pandas as pd
-from tqdm import tqdm
+from PIL import Image
 import os
 import json
 import google.generativeai as genai
+from google.genai import types
 from dotenv import load_dotenv
-import csv
-import re
 import shutil
 from Utils import Utils
 
@@ -23,10 +20,18 @@ class GeminiFlash:
         genai.configure(api_key=api_key)
 
         # Make these variables private
-        self.cache_path = cache
-        self.image_folder = image_folder
-        self.MODEL_NAME = model_name
-        self.cache_refresh = cache_refresh
+        self.__cache_path = cache
+        self.__image_folder = image_folder
+        self.__MODEL_NAME = model_name
+        self.__cache_refresh = cache_refresh
+
+        self.__prompt_token_count_img = 0
+        self.__candidates_token_count_img = 0
+        self.__query_count_img = 0
+
+        self.__prompt_token_count_id = 0
+        self.__candidates_token_count_id = 0
+        self.__query_count_id = 0
 
         system_instruction = """
         You are a data extraction AI. Your task is to extract information from a technical document into a raw JSON object.
@@ -99,45 +104,124 @@ class GeminiFlash:
             }
         """
 
-        self.model = genai.GenerativeModel(
-            model_name=self.MODEL_NAME, system_instruction=system_instruction)
+        self.__model = genai.GenerativeModel(
+            model_name=self.__MODEL_NAME, system_instruction=system_instruction)
+        self.__id_model = genai.GenerativeModel(
+            model_name=self.__MODEL_NAME)
         # self.chat = self.model.start_chat(history=[])
 
         try:
             with open(cache, 'r', encoding='utf-8') as f:
-                self.cache = json.load(f)
+                self.__cache = json.load(f)
         except FileNotFoundError:
             print(f"Cache file '{cache}' not found. Initializing a new cache.")
-            self.cache = {}
+            self.__cache = {}
         except json.JSONDecodeError:
             print(
                 f"Cache file '{cache}' is empty or not valid JSON. Initializing a new cache.")
-            self.cache = {}
+            self.__cache = {}
 
-        if self.refresh_cache:
-            self.refresh_cache()
+        if self.__cache_refresh:
+            self.__refresh_cache()
         return
 
     def get_similar_id(self, target_id):
-        if (matched_id := self.match_id(target_id)) and self.cache.keys():
+        if self.__cache.keys() and (matched_id := self.__fuzz_match_id(target_id)):
+            return matched_id
+        print("Verifying with Gemini...")
+        if self.__cache.keys() and (matched_id := self.__gemini_match_id(target_id)):
             return matched_id
         return None
 
-    def match_id(self, target_id):
+    def __gemini_match_id(self, target_id):
+        """
+        Finds a similar ID from the cache using a Gemini model.
+
+        This function is designed to be robust against common LLM output variations
+        and prevents KeyErrors by validating the model's response.
+        """
+        if not self.__cache:
+            return None
+
+        id_list = list(self.__cache.keys())
+
+        prompt = f"""
+        You are a precise and silent ID matching tool. Your purpose is to find the single best match for a target ID from a list.
+
+        Your instructions are absolute:
+        1.  You will analyze the 'ID to match' and compare it against the 'ID list'.
+        3.  If the result is a clear, unambiguous match, you will return the original ID from the list.
+        4.  If there is no clear match, you will return the exact string 'NA'.
+
+        Your output must be ONLY the matched ID or the string 'NA'. Do not provide any explanation, preamble, justification, or any text other than the result.
+
+        ---
+        Example 1:
+        ID list = ['FF(G)/EF1152', 'FF(G)1152 (VIRTEX-4: XQ4VFX100)', 'CLIENT-789-C']
+        ID to match = 'FF1152'
+        Matched ID from list = ?
+
+        FF(G)/EF1152
+
+        Example 2:
+        ID list = ['FF(G)/EF1152', 'FF(G)1152 (VIRTEX-4: XQ4VFX100)', 'CLIENT-789-C']
+        ID to match = 'FF1152 (XQ4VFX100)'
+        Matched ID from list = ?
+
+        FF(G)1152 (VIRTEX-4: XQ4VFX100)
+
+        Example 3 (No Match):
+        ID list = ['PROD-A-999', 'PROD-B-101', 'DEV-C-500']
+        ID to match = 'cus'
+        Matched ID from list = ?
+
+        NA
+        ---
+
+        Here is your task:
+
+        ID list = {id_list}
+        ID to match = {target_id}
+        Matched ID from list = ?
+        """
+
+        try:
+            response = self.__id_model.generate_content([prompt])
+            self.__query_count_id += 1
+            self.__prompt_token_count_id += response.usage_metadata.prompt_token_count
+            self.__candidates_token_count_id += response.usage_metadata.candidates_token_count
+            derived_id = response.text.strip()
+            print("Derived_id:", derived_id)
+            if derived_id in self.__cache:
+                return self.__cache[derived_id]
+            else:
+                return None
+
+        except Exception as e:
+            print(f"An error occurred during Gemini ID matching: {e}")
+            return None
+
+    def __fuzz_match_id(self, target_id):
         best_match_id = []
-        for id, dict_object in self.cache.items():
+        for id, dict_object in self.__cache.items():
+            clean_id = Utils.clean_id(id)
             best_match_id.append(
-                (id, dict_object, Utils.similarity_score(id, target_id)))
+                (id, dict_object, Utils.similarity_score(clean_id, target_id)))
         best_match_id.sort(key=lambda x: x[2], reverse=True)
 
         if best_match_id[0][2] >= 85:
-            print("Best score:", best_match_id[0][2])
-            return self.cache[best_match_id[0][0]]
+            print("Old similarity score:", Utils.similarity_score(
+                best_match_id[0][0], target_id))
+            print("Similarity score:", best_match_id[0][2])
+            print("Original Id", best_match_id[0][0], "; Clean Id", Utils.clean_id(
+                best_match_id[0][0]))
+            return self.__cache[best_match_id[0][0]]
         else:
+            print("NO MATCH - Similarity score:", best_match_id[0][2])
+            # print(self.cache[best_match_id[0][0]])
             return None
 
-    def refresh_cache(self):
-        # Break the refresh if the ID is found with a high similarity score of > 85
+    def __refresh_cache(self):
         print("Looking through images...")
         try:
             script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -147,9 +231,9 @@ class GeminiFlash:
         processed_image_folder = os.path.join(script_dir, "processed_images")
         os.makedirs(processed_image_folder, exist_ok=True)
 
-        for filename in os.listdir(self.image_folder):
+        for filename in os.listdir(self.__image_folder):
             path_to_check = os.path.join(processed_image_folder, filename)
-            image_path = os.path.join(self.image_folder, filename)
+            image_path = os.path.join(self.__image_folder, filename)
             if os.path.exists(path_to_check) or os.path.isdir(image_path):
                 continue
             else:
@@ -158,26 +242,29 @@ class GeminiFlash:
                 img.save(os.path.join(processed_image_folder, filename))
 
         cached_paths = set(value['image_path']
-                           for value in self.cache.values())
+                           for value in self.__cache.values())
 
-        undefined_tables_path = os.path.join(self.image_folder, "undefined")
+        undefined_tables_path = os.path.join(self.__image_folder, "undefined")
         os.makedirs(undefined_tables_path, exist_ok=True)
         files_to_remove = []
         files_to_move = []
         for filename in os.listdir(processed_image_folder):
             processed_image_path = os.path.join(
                 processed_image_folder, filename)
-            image_path = os.path.join(self.image_folder, filename)
+            image_path = os.path.join(self.__image_folder, filename)
 
             # Skip if mapping is already stored
             if image_path in cached_paths:
-                print(f"{filename} already in cache!")
+                # print(f"{filename} already in cache!")
                 continue
 
             img = Image.open(processed_image_path)
 
             print(f"Sending {filename} to bot...")
-            response = self.model.generate_content([img])
+            response = self.__model.generate_content([img])
+            self.__query_count_img += 1
+            self.__prompt_token_count_img += response.usage_metadata.prompt_token_count
+            self.__candidates_token_count_img += response.usage_metadata.candidates_token_count
             content = Utils.clean_json_response(response.text)
 
             if not content:
@@ -191,22 +278,21 @@ class GeminiFlash:
                 print(response.text)
                 files_to_move.append(image_path)
                 files_to_remove.append(processed_image_path)
-                if content['id'] in self.cache:
+                if content['id'] in self.__cache:
                     continue
 
             # Update cache
             content["image_path"] = image_path
-            self.cache[content['id']] = content
+            self.__cache[content['id']] = content
 
-            # Save after every iteration for free tier only
             try:
-                with open(self.cache_path, 'w', encoding='utf-8') as f:
-                    json.dump(self.cache, f, ensure_ascii=False,
+                with open(self.__cache_path, 'w', encoding='utf-8') as f:
+                    json.dump(self.__cache, f, ensure_ascii=False,
                               indent=4, sort_keys=False)
                 print("Save successful.")
             except IOError as e:
                 print(
-                    f"Error: Could not write to file {self.cache_path}. Reason: {e}")
+                    f"Error: Could not write to file {self.__cache_path}. Reason: {e}")
 
         for file in files_to_move:
             shutil.move(file, undefined_tables_path)
@@ -214,4 +300,38 @@ class GeminiFlash:
         for file in files_to_remove:
             os.remove(file)
 
+        print("Done looking through!\n")
+        return
+
+    def estimate_cost(self):
+        if self.__MODEL_NAME == "gemini-2.5-flash":
+            print("\n====================")
+            if self.__cache_refresh:
+                print("IMG PROCESSING")
+                img_input_cost = self.__prompt_token_count_img * 0.3 / 1_000_000
+                img_output_cost = self.__candidates_token_count_img * 2.5 / 1_000_000
+                print(f"    Total cost - {self.__query_count_img} Queries")
+                print("         US$", round(img_input_cost + img_output_cost, 8))
+                print("")
+                print("     Average cost per query")
+                print("         US$", [round((img_input_cost +
+                      img_output_cost)/self.__query_count_img, 8) if self.__query_count_img != 0 else 0][0])
+                print("--------------------")
+            else:
+                img_input_cost = 0
+                img_output_cost = 0
+            print("ID MATCHING")
+            id_input_cost = self.__prompt_token_count_id * 0.3 / 1_000_000
+            id_output_cost = self.__candidates_token_count_id * 2.5 / 1_000_000
+            print(f"    Total cost - {self.__query_count_id} Queries")
+            print("         US$", round(id_input_cost + id_output_cost, 8))
+            print("")
+            print("     Average cost per query")
+            print("         US$", [round((id_input_cost +
+                  id_output_cost)/self.__query_count_id, 8) if self.__query_count_id != 0 else 0][0])
+            print("--------------------")
+            print("TOTAL COST")
+            print("     US$", round(img_input_cost + img_output_cost +
+                  id_input_cost + id_output_cost, 8))
+            print("====================\n")
         return
