@@ -6,6 +6,7 @@ import json
 import google.generativeai as genai
 from dotenv import load_dotenv
 import re
+import regex
 from rapidfuzz import fuzz
 import cv2
 
@@ -93,7 +94,7 @@ class Utils:
             band_top_y = start_search_y + 1
             found_band_positions.append(band_top_y)
 
-        crop_y = height  
+        crop_y = height
         total_bands_found = len(found_band_positions)
 
         if total_bands_found >= 2:
@@ -171,12 +172,41 @@ class Utils:
 
     @staticmethod
     def clean_id(id):
-        temp_string = re.sub(r"VIRTEX-\d+:\s*", "", id)
-        temp_string = temp_string.replace("(G)", "")
-        return temp_string
+        id = id.replace("(G)", "")
+        stripped_id = regex.sub(r'\((?:[^()]|(?R))*\)', "", id)
+        letters = re.findall(r'[a-zA-Z]', stripped_id)
+        digits = re.findall(r'\d', stripped_id)
+
+        if len(letters) >= 2 and len(digits) >= 4:
+            bracket_match = regex.findall(
+                r'\((?:[^()]|(?R))*\)', id)
+            if bracket_match:
+                brackets = re.sub(r"VIRTEX-.*?:s*", "", bracket_match[-1])
+                cleaned_id = "".join(letters[:2]) + \
+                    "".join(digits[:4]) + " " + brackets
+            else:
+                cleaned_id = "".join(letters[:2]) + \
+                    "".join(digits[:4])
+            return cleaned_id
+        elif len(letters) >= 2:
+            return "".join(letters[:2]) + "".join(digits)
+        elif len(digits) >= 4:
+            return "".join(letters) + "".join(digits[:4])
+        else:
+            return id
 
     @staticmethod
     def similarity_score(code_1, code_2):
+        clean_code_1 = re.sub(r'[^a-zA-Z0-9]', '', code_1)
+        clean_code_2 = re.sub(r'[^a-zA-Z0-9]', '', code_2)
+        return fuzz.ratio(clean_code_1, clean_code_2)
+
+    @staticmethod
+    def similarity_score_stripped(code_1, code_2):
+        code_1 = regex.sub(
+            r'\((?:[^()]|(?R))*\)', "", code_1)
+        code_2 = regex.sub(
+            r'\((?:[^()]|(?R))*\)', "", code_2)
         clean_code_1 = re.sub(r'[^a-zA-Z0-9]', '', code_1)
         clean_code_2 = re.sub(r'[^a-zA-Z0-9]', '', code_2)
         return fuzz.ratio(clean_code_1, clean_code_2)

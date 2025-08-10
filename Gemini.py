@@ -36,7 +36,7 @@ class GeminiFlash:
         system_instruction = """
         You are a data extraction AI. Your task is to extract information from a technical document into a raw JSON object.
         Follow these rules:
-            1.  **`id`**: Extract the complete identification string from the document's top header. If there are sub-headers, include them in the ID. This string might contain parentheses, slashes, or other characters.
+            1.  **`id`**: Extract the complete identification string from the document's top header. If there are sub-headers, include them in the ID, wrapped in parentheses. This string might contain parentheses, slashes, or other characters.
             2.  **`table`**: Extract the table data in the bottom-left portion of the image. Process this table to create a JSON object.
             *   For each row in the table, use the label from the first column(e.g., 'A', 'A1', 'D/E', 'øb') as a key in your main `table` object.
             *   The value for each key depends on the row's content:
@@ -206,19 +206,26 @@ class GeminiFlash:
         for id, dict_object in self.__cache.items():
             clean_id = Utils.clean_id(id)
             best_match_id.append(
-                (id, dict_object, Utils.similarity_score(clean_id, target_id)))
+                (id, dict_object, Utils.similarity_score(clean_id, target_id), Utils.similarity_score_stripped(clean_id, target_id)))
         best_match_id.sort(key=lambda x: x[2], reverse=True)
 
         if best_match_id[0][2] >= 85:
-            print("Old similarity score:", Utils.similarity_score(
-                best_match_id[0][0], target_id))
             print("Similarity score:", best_match_id[0][2])
             print("Original Id", best_match_id[0][0], "; Clean Id", Utils.clean_id(
                 best_match_id[0][0]))
             return self.__cache[best_match_id[0][0]]
+
+        best_match_id.sort(key=lambda x: x[3], reverse=True)
+        if best_match_id[0][3] >= 85:
+            print("Stripped Similarity score:", best_match_id[0][3])
+            print("Original Id", best_match_id[0][0], "; Clean Id", Utils.clean_id(
+                best_match_id[0][0]))
+            return self.__cache[best_match_id[0][0]]
+
         else:
-            print("NO MATCH - Similarity score:", best_match_id[0][2])
-            # print(self.cache[best_match_id[0][0]])
+            print("Original Id", best_match_id[0][0], "; Clean Id", Utils.clean_id(
+                best_match_id[0][0]))
+            print("NO MATCH - Similarity score for", best_match_id[0][2])
             return None
 
     def __refresh_cache(self):
@@ -234,7 +241,7 @@ class GeminiFlash:
         for filename in os.listdir(self.__image_folder):
             path_to_check = os.path.join(processed_image_folder, filename)
             image_path = os.path.join(self.__image_folder, filename)
-            if os.path.exists(path_to_check) or os.path.isdir(image_path):
+            if os.path.exists(path_to_check) or os.path.isdir(image_path) or (not filename.endswith("jpg")):
                 continue
             else:
                 img = Image.open(image_path)

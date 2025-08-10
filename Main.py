@@ -1,7 +1,10 @@
 from Gemini import GeminiFlash
 from Utils import Utils
 import sys
+import pandas as pd
 
+pd.set_option('display.max_columns', None)
+pd.set_option('display.width', 1000)
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
@@ -11,7 +14,7 @@ if __name__ == "__main__":
     csv_file_path = str(sys.argv[1])
 
     bot = GeminiFlash(model_name="gemini-2.5-flash",
-                      cache='cache.json', cache_refresh=False)
+                      cache='cache.json', cache_refresh=True)
 
     data, result_csv, column_map = Utils.read_and_prepare_data(
         csv_file_path)

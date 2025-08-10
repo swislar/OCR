@@ -1155,56 +1155,6 @@
         },
         "image_path": "./all_images/obg0219_page2.jpg"
     },
-    "SFVA784 SFQA784 (VE2302, VE2202, VE2102, VE2002, VM1102) / (XQVM1102)": {
-        "id": "SFVA784 SFQA784 (VE2302, VE2202, VE2102, VE2002, VM1102) / (XQVM1102)",
-        "table": {
-            "A": {
-                "MIN": 3.26,
-                "NOM": 3.46,
-                "MAX": 3.66
-            },
-            "A1": {
-                "MIN": 0.36,
-                "NOM": 0.4,
-                "MAX": 0.44
-            },
-            "A2": {
-                "MIN": 2.86,
-                "NOM": 3.06,
-                "MAX": 3.26
-            },
-            "D/E": 23.0,
-            "D1/E1": 21.6,
-            "e": 0.8,
-            "øb": {
-                "MIN": 0.45,
-                "NOM": 0.5,
-                "MAX": 0.55
-            },
-            "aaa": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.2
-            },
-            "ccc": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.2
-            },
-            "ddd": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.15
-            },
-            "eee": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.08
-            },
-            "M": 28
-        },
-        "image_path": "./all_images/obg0164_page1.jpg"
-    },
     "FG680/FGG680": {
         "id": "FG680/FGG680",
         "table": {
@@ -2278,66 +2228,6 @@
         },
         "image_path": "./all_images/obg0066_page1.jpg"
     },
-    "FSVE1156/FSQE1156 (ZU25/27/28DR) (ZU43/45/47/48/58DR)": {
-        "id": "FSVE1156/FSQE1156 (ZU25/27/28DR) (ZU43/45/47/48/58DR)",
-        "table": {
-            "A": {
-                "MIN": 3.61,
-                "NOM": 3.81,
-                "MAX": 4.01
-            },
-            "A1": {
-                "MIN": 0.4,
-                "NOM": 0.5,
-                "MAX": 0.6
-            },
-            "A2": {
-                "MIN": 3.11,
-                "NOM": 3.31,
-                "MAX": 3.51
-            },
-            "A3": {
-                "MIN": 1.01,
-                "NOM": 1.04,
-                "MAX": 1.07
-            },
-            "A4": {
-                "MIN": 2.67,
-                "NOM": 2.77,
-                "MAX": 2.87
-            },
-            "D/E": 35.0,
-            "D1/E1": 33.0,
-            "e": 1.0,
-            "øb": {
-                "MIN": 0.5,
-                "NOM": 0.6,
-                "MAX": 0.7
-            },
-            "aaa": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.2
-            },
-            "ccc": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.35
-            },
-            "ddd": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.3
-            },
-            "eee": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.1
-            },
-            "M": 34
-        },
-        "image_path": "./all_images/obg0244_page1.jpg"
-    },
     "RF1157/RF1158": {
         "id": "RF1157/RF1158",
         "table": {
@@ -2437,66 +2327,6 @@
             "M": 26
         },
         "image_path": "./all_images/obg0187_page1.jpg"
-    },
-    "VSVA3340, VSRA3340 (VP1502) (XQVP1502)": {
-        "id": "VSVA3340, VSRA3340 (VP1502) (XQVP1502)",
-        "table": {
-            "A": {
-                "MIN": 4.0,
-                "NOM": 4.2,
-                "MAX": 4.4
-            },
-            "A1": {
-                "MIN": 0.4,
-                "NOM": 0.5,
-                "MAX": 0.6
-            },
-            "A2": {
-                "MIN": 3.5,
-                "NOM": 3.7,
-                "MAX": 3.9
-            },
-            "A3": {
-                "MIN": 0.85,
-                "NOM": 0.95,
-                "MAX": 1.05
-            },
-            "A4": {
-                "MIN": 3.15,
-                "NOM": 3.25,
-                "MAX": 3.35
-            },
-            "D/E": 55.0,
-            "D1/E1": 52.44,
-            "e": 0.92,
-            "øb": {
-                "MIN": 0.5,
-                "NOM": 0.64,
-                "MAX": 0.7
-            },
-            "aaa": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.3
-            },
-            "bbb": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.35
-            },
-            "ddd": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.25
-            },
-            "eee": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.1
-            },
-            "M": 58
-        },
-        "image_path": "./all_images/obg0308 _page1.jpg"
     },
     "SBVA625 (VE2102, VE2002)": {
         "id": "SBVA625 (VE2102, VE2002)",
@@ -2708,61 +2538,6 @@
         },
         "image_path": "./all_images/obg0206_page2.jpg"
     },
-    "VSVD1760-LP (VM1802) (SCD5521)": {
-        "id": "VSVD1760-LP (VM1802) (SCD5521)",
-        "table": {
-            "A": {
-                "MIN": 2.55,
-                "NOM": 2.75,
-                "MAX": 2.95
-            },
-            "A1": {
-                "MIN": 0.4,
-                "NOM": 0.5,
-                "MAX": 0.6
-            },
-            "A2": {
-                "MIN": 2.05,
-                "NOM": 2.25,
-                "MAX": 2.45
-            },
-            "A3": {
-                "MIN": 0.097,
-                "NOM": 0.147,
-                "MAX": 0.197
-            },
-            "D/E": 40.0,
-            "D1/E1": 37.72,
-            "e": 0.92,
-            "øb": {
-                "MIN": 0.5,
-                "NOM": 0.64,
-                "MAX": 0.7
-            },
-            "aaa": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.2
-            },
-            "bbb": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.1
-            },
-            "ddd": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.25
-            },
-            "eee": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.1
-            },
-            "M": 42
-        },
-        "image_path": "./all_images/obg0384_page1.jpg"
-    },
     "FB(G)900/FBV900": {
         "id": "FB(G)900/FBV900",
         "table": {
@@ -2868,101 +2643,6 @@
         },
         "image_path": "./all_images/obg0361_page1.jpg"
     },
-    "BG256/BGG256": {
-        "id": "BG256/BGG256",
-        "table": {
-            "A": {
-                "MIN": null,
-                "NOM": 2.3,
-                "MAX": 2.55
-            },
-            "A1": {
-                "MIN": 0.5,
-                "NOM": 0.6,
-                "MAX": 0.7
-            },
-            "D/E": 27.0,
-            "D1/E1": 24.14,
-            "e": 1.27,
-            "øb": {
-                "MIN": 0.6,
-                "NOM": 0.75,
-                "MAX": 0.9
-            },
-            "aaa": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.2
-            },
-            "ccc": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.35
-            },
-            "ddd": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.3
-            },
-            "eee": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.15
-            },
-            "M": 20
-        },
-        "image_path": "./all_images/obg0011_page1.jpg"
-    },
-    "FLGF1924/FLQF1924": {
-        "id": "FLGF1924/FLQF1924",
-        "table": {
-            "A": {
-                "MIN": 3.84,
-                "NOM": 4.04,
-                "MAX": 4.24
-            },
-            "A1": {
-                "MIN": 0.4,
-                "NOM": 0.5,
-                "MAX": 0.6
-            },
-            "A2": {
-                "MIN": 3.34,
-                "NOM": 3.54,
-                "MAX": 3.74
-            },
-            "D/E": 45.0,
-            "D1/E1": 43.0,
-            "e": 1.0,
-            "øb": {
-                "MIN": 0.5,
-                "NOM": 0.6,
-                "MAX": 0.7
-            },
-            "aaa": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.3
-            },
-            "bbb": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.1
-            },
-            "ddd": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.25
-            },
-            "eee": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.1
-            },
-            "M": 44
-        },
-        "image_path": "./all_images/obg0227_page1.jpg"
-    },
     "SFVA625 (ZU1CG/EG)": {
         "id": "SFVA625 (ZU1CG/EG)",
         "table": {
@@ -3012,56 +2692,6 @@
             "M": 25
         },
         "image_path": "./all_images/obg0193_page2.jpg"
-    },
-    "FF(G)1738 VIRTEX-5: XC5VFX130T/XC5VFX200T/XQ5VFX200T/XC5VLX220T/XCE05L22T/XC5VSX240T/ XQ5VSX240T/XC5VLX330T)": {
-        "id": "FF(G)1738 VIRTEX-5: XC5VFX130T/XC5VFX200T/XQ5VFX200T/XC5VLX220T/XCE05L22T/XC5VSX240T/ XQ5VSX240T/XC5VLX330T)",
-        "table": {
-            "A": {
-                "MIN": 2.85,
-                "NOM": null,
-                "MAX": 3.35
-            },
-            "A1": {
-                "MIN": 0.4,
-                "NOM": 0.5,
-                "MAX": 0.6
-            },
-            "A2": {
-                "MIN": 1.0,
-                "NOM": null,
-                "MAX": 1.4
-            },
-            "D/E": 42.5,
-            "D1/E1": 41.0,
-            "e": 1.0,
-            "øb": {
-                "MIN": 0.5,
-                "NOM": 0.6,
-                "MAX": 0.7
-            },
-            "aaa": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.2
-            },
-            "bbb": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.25
-            },
-            "ddd": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.25
-            },
-            "eee": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.1
-            },
-            "M": 42
-        },
-        "image_path": "./all_images/obg0066_page2.jpg"
     },
     "FSVE1156 (ZU42/55/57/65/67DR)": {
         "id": "FSVE1156 (ZU42/55/57/65/67DR)",
@@ -3353,56 +2983,6 @@
         },
         "image_path": "./all_images/obg0143_page1.jpg"
     },
-    "FFVB676 (XCAU15P/XCAU10P) (XCAU25P/XCAU20P)": {
-        "id": "FFVB676 (XCAU15P/XCAU10P) (XCAU25P/XCAU20P)",
-        "table": {
-            "A": {
-                "MIN": 3.03,
-                "NOM": 3.23,
-                "MAX": 3.43
-            },
-            "A1": {
-                "MIN": 0.4,
-                "NOM": 0.5,
-                "MAX": 0.6
-            },
-            "A2": {
-                "MIN": 2.53,
-                "NOM": 2.73,
-                "MAX": 2.93
-            },
-            "D/E": 27.0,
-            "D1/E1": 25.0,
-            "e": 1.0,
-            "øb": {
-                "MIN": 0.5,
-                "NOM": 0.6,
-                "MAX": 0.7
-            },
-            "aaa": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.2
-            },
-            "ccc": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.25
-            },
-            "ddd": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.25
-            },
-            "eee": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.1
-            },
-            "M": 26
-        },
-        "image_path": "./all_images/obg0187_page2.jpg"
-    },
     "BG313": {
         "id": "BG313",
         "table": {
@@ -3500,66 +3080,6 @@
             "M": 19
         },
         "image_path": "./all_images/obg0097_page1.jpg"
-    },
-    "VSVA3340, VSRA3340 (VP1402) (XQVP1402)": {
-        "id": "VSVA3340, VSRA3340 (VP1402) (XQVP1402)",
-        "table": {
-            "A": {
-                "MIN": 4.08,
-                "NOM": 4.28,
-                "MAX": 4.48
-            },
-            "A1": {
-                "MIN": 0.4,
-                "NOM": 0.5,
-                "MAX": 0.6
-            },
-            "A2": {
-                "MIN": 3.58,
-                "NOM": 3.78,
-                "MAX": 3.98
-            },
-            "A3": {
-                "MIN": 0.95,
-                "NOM": 1.05,
-                "MAX": 1.15
-            },
-            "A4": {
-                "MIN": 3.12,
-                "NOM": 3.22,
-                "MAX": 3.32
-            },
-            "D/E": 55.0,
-            "D1/E1": 52.44,
-            "e": 0.92,
-            "øb": {
-                "MIN": 0.5,
-                "NOM": 0.64,
-                "MAX": 0.7
-            },
-            "aaa": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.2
-            },
-            "bbb": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.35
-            },
-            "ddd": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.25
-            },
-            "eee": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.1
-            },
-            "M": 58
-        },
-        "image_path": "./all_images/obg0308 _page3.jpg"
     },
     "FLVB1760": {
         "id": "FLVB1760",
@@ -3805,18 +3325,6 @@
             "M": 15
         },
         "image_path": "./all_images/obg0083_page1.jpg"
-    },
-    "FB(G)900/FBV900 7K325T": {
-        "id": "FB(G)900/FBV900 7K325T",
-        "table": {
-            "PACKAGE TYPE": "FB900",
-            "DEVICE TYPE": "XC7K325T",
-            "F1": 9.89,
-            "G1": 16.92,
-            "J1": 15.89,
-            "H1": 20.92
-        },
-        "image_path": "./all_images/obg0101_page2.jpg"
     },
     "RF784": {
         "id": "RF784",
@@ -4583,56 +4091,6 @@
         },
         "image_path": "./all_images/obg0059_page3.jpg"
     },
-    "FFVA1156,FFQA1156 (KU060, KU095, KU11P) / FFVC1156,FFQC1156 (ZU7EV/ZU11EG)": {
-        "id": "FFVA1156,FFQA1156 (KU060, KU095, KU11P) / FFVC1156,FFQC1156 (ZU7EV/ZU11EG)",
-        "table": {
-            "A": {
-                "MIN": 3.11,
-                "NOM": 3.31,
-                "MAX": 3.51
-            },
-            "A1": {
-                "MIN": 0.4,
-                "NOM": 0.5,
-                "MAX": 0.6
-            },
-            "A2": {
-                "MIN": 2.61,
-                "NOM": 2.81,
-                "MAX": 3.01
-            },
-            "D/E": 35.0,
-            "D1/E1": 33.0,
-            "e": 1.0,
-            "øb": {
-                "MIN": 0.5,
-                "NOM": 0.6,
-                "MAX": 0.7
-            },
-            "aaa": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.2
-            },
-            "ccc": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.35
-            },
-            "ddd": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.3
-            },
-            "eee": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.1
-            },
-            "M": 34
-        },
-        "image_path": "./all_images/obg0144_page2.jpg"
-    },
     "FLGA2577/FLQA2577 (FOR XCVU11P)": {
         "id": "FLGA2577/FLQA2577 (FOR XCVU11P)",
         "table": {
@@ -4957,16 +4415,6 @@
             "M": 26
         },
         "image_path": "./all_images/obg0127_page1.jpg"
-    },
-    "FB(G)676/FBV676 XC7K410T": {
-        "id": "FB(G)676/FBV676 XC7K410T",
-        "table": {},
-        "image_path": "./all_images/obg0100_page6.jpg"
-    },
-    "FB(G)676/FBV676 XC7Z035/XC7Z045": {
-        "id": "FB(G)676/FBV676 XC7Z035/XC7Z045",
-        "table": {},
-        "image_path": "./all_images/obg0100_page7.jpg"
     },
     "FLRA2104/FLRB2104": {
         "id": "FLRA2104/FLRB2104",
@@ -5322,11 +4770,6 @@
             "M": 33
         },
         "image_path": "./all_images/obg0037_page1.jpg"
-    },
-    "FB(G)676/FBV676 XC7K325T": {
-        "id": "FB(G)676/FBV676 XC7K325T",
-        "table": {},
-        "image_path": "./all_images/obg0100_page5.jpg"
     },
     "FG(G)676/FG(G)A676": {
         "id": "FG(G)676/FG(G)A676",
@@ -5725,11 +5168,6 @@
             "M": 34
         },
         "image_path": "./all_images/obg0144_page1.jpg"
-    },
-    "FB(G)676/FBV676 XC7K160T": {
-        "id": "FB(G)676/FBV676 XC7K160T",
-        "table": {},
-        "image_path": "./all_images/obg0100_page4.jpg"
     },
     "CVG100": {
         "id": "CVG100",
@@ -6687,56 +6125,6 @@
         },
         "image_path": "./all_images/obg0135_page2.jpg"
     },
-    "FFRA1156 / FFRC1156 / RFQC1156 (XQKU15P) (XQZU7EV, XQZU11EG) (XQZU7EV)": {
-        "id": "FFRA1156 / FFRC1156 / RFQC1156 (XQKU15P) (XQZU7EV, XQZU11EG) (XQZU7EV)",
-        "table": {
-            "A": {
-                "MIN": 3.31,
-                "NOM": 3.51,
-                "MAX": 3.71
-            },
-            "A1": {
-                "MIN": 0.4,
-                "NOM": 0.5,
-                "MAX": 0.6
-            },
-            "A2": {
-                "MIN": 2.81,
-                "NOM": 3.01,
-                "MAX": 3.21
-            },
-            "D/E": 35.0,
-            "D1/E1": 33.0,
-            "e": 1.0,
-            "øb": {
-                "MIN": 0.5,
-                "NOM": 0.6,
-                "MAX": 0.7
-            },
-            "aaa": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.2
-            },
-            "ccc": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.35
-            },
-            "ddd": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.3
-            },
-            "eee": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.1
-            },
-            "M": 34
-        },
-        "image_path": "./all_images/obg0248_page1.jpg"
-    },
     "FFVD1924/FFVE1924/FFQE1924": {
         "id": "FFVD1924/FFVE1924/FFQE1924",
         "table": {
@@ -6896,11 +6284,6 @@
             "M": 33
         },
         "image_path": "./all_images/obg0010_page1.jpg"
-    },
-    "FB(G)676/FBV677 XC7K70T": {
-        "id": "FB(G)676/FBV677 XC7K70T",
-        "table": {},
-        "image_path": "./all_images/obg0100_page3.jpg"
     },
     "FTGB196": {
         "id": "FTGB196",
@@ -7381,11 +6764,6 @@
         },
         "image_path": "./all_images/obg0082_page1.jpg"
     },
-    "FB(G)676/FBV676 XC7A200T": {
-        "id": "FB(G)676/FBV676 XC7A200T",
-        "table": {},
-        "image_path": "./all_images/obg0100_page2.jpg"
-    },
     "CL(G)400": {
         "id": "CL(G)400",
         "table": {
@@ -7760,66 +7138,6 @@
             "M": 34
         },
         "image_path": "./all_images/obg0087_page3.jpg"
-    },
-    "VSVA2785/VSRA2785 (VP1502) (XQVP1502)": {
-        "id": "VSVA2785/VSRA2785 (VP1502) (XQVP1502)",
-        "table": {
-            "A": {
-                "MIN": 4.08,
-                "NOM": 4.28,
-                "MAX": 4.48
-            },
-            "A1": {
-                "MIN": 0.4,
-                "NOM": 0.5,
-                "MAX": 0.6
-            },
-            "A2": {
-                "MIN": 3.58,
-                "NOM": 3.78,
-                "MAX": 3.98
-            },
-            "A3": {
-                "MIN": 0.84,
-                "NOM": 0.94,
-                "MAX": 1.04
-            },
-            "A4": {
-                "MIN": 3.24,
-                "NOM": 3.34,
-                "MAX": 3.44
-            },
-            "D/E": 50.0,
-            "D1/E1": 47.84,
-            "e": 0.92,
-            "øb": {
-                "MIN": 0.5,
-                "NOM": 0.64,
-                "MAX": 0.7
-            },
-            "aaa": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.3
-            },
-            "bbb": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.35
-            },
-            "ddd": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.25
-            },
-            "eee": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.1
-            },
-            "M": 53
-        },
-        "image_path": "./all_images/obg0304 _page2.jpg"
     },
     "SBVA484/SBQA484 (ZU1EG/CG, ZU2EG/CG, ZU3EG/CG)": {
         "id": "SBVA484/SBQA484 (ZU1EG/CG, ZU2EG/CG, ZU3EG/CG)",
@@ -8761,66 +8079,6 @@
         },
         "image_path": "./all_images/obg0153_page1.jpg"
     },
-    "VSVA2785/VSQA2785/VSRA2785 (VP1202) (XQVP1202) (XQVP1202)": {
-        "id": "VSVA2785/VSQA2785/VSRA2785 (VP1202) (XQVP1202) (XQVP1202)",
-        "table": {
-            "A": {
-                "MIN": 4.0,
-                "NOM": 4.2,
-                "MAX": 4.4
-            },
-            "A1": {
-                "MIN": 0.4,
-                "NOM": 0.5,
-                "MAX": 0.6
-            },
-            "A2": {
-                "MIN": 3.5,
-                "NOM": 3.7,
-                "MAX": 3.9
-            },
-            "A3": {
-                "MIN": 0.95,
-                "NOM": 1.05,
-                "MAX": 1.15
-            },
-            "A4": {
-                "MIN": 3.05,
-                "NOM": 3.15,
-                "MAX": 3.25
-            },
-            "D/E": 50.0,
-            "D1/E1": 47.84,
-            "e": 0.92,
-            "øb": {
-                "MIN": 0.5,
-                "NOM": 0.64,
-                "MAX": 0.7
-            },
-            "aaa": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.2
-            },
-            "bbb": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.35
-            },
-            "ddd": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.25
-            },
-            "eee": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.1
-            },
-            "M": 53
-        },
-        "image_path": "./all_images/obg0304 _page1.jpg"
-    },
     "FLVD1924/FLVF1924": {
         "id": "FLVD1924/FLVF1924",
         "table": {
@@ -9584,66 +8842,6 @@
             "M": 39
         },
         "image_path": "./all_images/obg0209_page1.jpg"
-    },
-    "VSVA2785/VSRA2785 (VP1102, VP1402) (XQVP1402)": {
-        "id": "VSVA2785/VSRA2785 (VP1102, VP1402) (XQVP1402)",
-        "table": {
-            "A": {
-                "MIN": 4.08,
-                "NOM": 4.28,
-                "MAX": 4.48
-            },
-            "A1": {
-                "MIN": 0.4,
-                "NOM": 0.5,
-                "MAX": 0.6
-            },
-            "A2": {
-                "MIN": 3.58,
-                "NOM": 3.78,
-                "MAX": 3.98
-            },
-            "A3": {
-                "MIN": 0.95,
-                "NOM": 1.05,
-                "MAX": 1.15
-            },
-            "A4": {
-                "MIN": 3.02,
-                "NOM": 3.22,
-                "MAX": 3.32
-            },
-            "D/E": 50.0,
-            "D1/E1": 47.84,
-            "e": 0.92,
-            "øb": {
-                "MIN": 0.5,
-                "NOM": 0.54,
-                "MAX": 0.7
-            },
-            "aaa": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.2
-            },
-            "bbb": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.35
-            },
-            "ddd": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.25
-            },
-            "eee": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.1
-            },
-            "M": 53.0
-        },
-        "image_path": "./all_images/obg0304 _page4.jpg"
     },
     "FB(G)484/FBV484": {
         "id": "FB(G)484/FBV484",
@@ -13669,56 +12867,6 @@
         },
         "image_path": "./all_images/obg0175_page1.jpg"
     },
-    "FF(G)900/901,FFV900/901 ( KINTEX-7: XC7K325T/XC7K410T ) ( ZYNQ-7: XC7Z035/XC7Z045/XC7Z100 )": {
-        "id": "FF(G)900/901,FFV900/901 ( KINTEX-7: XC7K325T/XC7K410T ) ( ZYNQ-7: XC7Z035/XC7Z045/XC7Z100 )",
-        "table": {
-            "A": {
-                "MIN": 2.95,
-                "NOM": 3.15,
-                "MAX": 3.35
-            },
-            "A1": {
-                "MIN": 0.4,
-                "NOM": 0.5,
-                "MAX": 0.6
-            },
-            "A2": {
-                "MIN": 2.55,
-                "NOM": null,
-                "MAX": 2.75
-            },
-            "D/E": 31.0,
-            "D1/E1": 29.0,
-            "e": 1.0,
-            "øb": {
-                "MIN": 0.5,
-                "NOM": 0.6,
-                "MAX": 0.7
-            },
-            "aaa": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.2
-            },
-            "ccc": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.35
-            },
-            "ddd": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.3
-            },
-            "eee": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.1
-            },
-            "M": 30
-        },
-        "image_path": "./all_images/obg0102_page2.jpg"
-    },
     "FF323/FFG323/FFV323": {
         "id": "FF323/FFG323/FFV323",
         "table": {
@@ -14319,56 +13467,6 @@
         },
         "image_path": "./all_images/obg0001_page1.jpg"
     },
-    "FF(G)1760 VIRTEX-5 & 6: XC5VLX220/XC5VLX330/XCE05L33/XC6VLX550T/XC6VLX760": {
-        "id": "FF(G)1760 VIRTEX-5 & 6: XC5VLX220/XC5VLX330/XCE05L33/XC6VLX550T/XC6VLX760",
-        "table": {
-            "A": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 3.5
-            },
-            "A1": {
-                "MIN": 0.4,
-                "NOM": 0.5,
-                "MAX": 0.6
-            },
-            "A2": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 1.5
-            },
-            "D/E": 42.5,
-            "D1/E1": 41.0,
-            "e": 1.0,
-            "øb": {
-                "MIN": 0.5,
-                "NOM": 0.6,
-                "MAX": 0.7
-            },
-            "aaa": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.25
-            },
-            "bbb": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.25
-            },
-            "dddd": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.25
-            },
-            "eee": {
-                "MIN": null,
-                "NOM": null,
-                "MAX": 0.1
-            },
-            "M": 42
-        },
-        "image_path": "./all_images/obg0057_page2.jpg"
-    },
     "FF(G)1148 (VIRTEX-4: XC4VLX40/XCE04L4/XC4VSX55/XC4VLX60/XCE04L6 XC4VLX80/XCE04L8/XC4VLX100/XC4VLX160/XQ4VLX100)": {
         "id": "FF(G)1148 (VIRTEX-4: XC4VLX40/XCE04L4/XC4VSX55/XC4VLX60/XCE04L6 XC4VLX80/XCE04L8/XC4VLX100/XC4VLX160/XQ4VLX100)",
         "table": {
@@ -14419,8 +13517,328 @@
         },
         "image_path": "./all_images/obg0049_page2.jpg"
     },
-    "FB(G)900/FBV900 7K410T CHIP CAPACITOR LAYOUT": {
-        "id": "FB(G)900/FBV900 7K410T CHIP CAPACITOR LAYOUT",
+    "BG256/BGG256": {
+        "id": "BG256/BGG256",
+        "table": {
+            "A": {
+                "MIN": null,
+                "NOM": 2.3,
+                "MAX": 2.55
+            },
+            "A1": {
+                "MIN": 0.5,
+                "NOM": 0.6,
+                "MAX": 0.7
+            },
+            "D/E": 27.0,
+            "D1/E1": 24.14,
+            "e": 1.27,
+            "øb": {
+                "MIN": 0.6,
+                "NOM": 0.75,
+                "MAX": 0.9
+            },
+            "aaa": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.2
+            },
+            "ccc": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.35
+            },
+            "ddd": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.3
+            },
+            "eee": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.15
+            },
+            "M": 20
+        },
+        "image_path": "./all_images/obg0011_page1.jpg"
+    },
+    "FLGF1924/FLQF1924": {
+        "id": "FLGF1924/FLQF1924",
+        "table": {
+            "A": {
+                "MIN": 3.84,
+                "NOM": 4.04,
+                "MAX": 4.24
+            },
+            "A1": {
+                "MIN": 0.4,
+                "NOM": 0.5,
+                "MAX": 0.6
+            },
+            "A2": {
+                "MIN": 3.34,
+                "NOM": 3.54,
+                "MAX": 3.74
+            },
+            "D/E": 45.0,
+            "D1/E1": 43.0,
+            "e": 1.0,
+            "øb": {
+                "MIN": 0.5,
+                "NOM": 0.6,
+                "MAX": 0.7
+            },
+            "aaa": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.3
+            },
+            "bbb": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.1
+            },
+            "ddd": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.25
+            },
+            "eee": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.1
+            },
+            "M": 44
+        },
+        "image_path": "./all_images/obg0227_page1.jpg"
+    },
+    "(SFVA784 SFQA784 (VE2302, VE2202, VE2102, VE2002, VM1102) / (XQVM1102))": {
+        "id": "(SFVA784 SFQA784 (VE2302, VE2202, VE2102, VE2002, VM1102) / (XQVM1102))",
+        "table": {
+            "A": {
+                "MIN": 3.26,
+                "NOM": 3.46,
+                "MAX": 3.66
+            },
+            "A1": {
+                "MIN": 0.36,
+                "NOM": 0.4,
+                "MAX": 0.44
+            },
+            "A2": {
+                "MIN": 2.86,
+                "NOM": 3.06,
+                "MAX": 3.26
+            },
+            "D/E": 23.0,
+            "D1/E1": 21.6,
+            "e": 0.8,
+            "øb": {
+                "MIN": 0.45,
+                "NOM": 0.5,
+                "MAX": 0.55
+            },
+            "aaa": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.2
+            },
+            "ccc": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.2
+            },
+            "ddd": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.15
+            },
+            "eee": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.08
+            },
+            "M": 28
+        },
+        "image_path": "./all_images/obg0164_page1.jpg"
+    },
+    "FSVE1156/FSQE1156 (ZU25/27/28DR) (ZU43/45/47/48/58DR)": {
+        "id": "FSVE1156/FSQE1156 (ZU25/27/28DR) (ZU43/45/47/48/58DR)",
+        "table": {
+            "A": {
+                "MIN": 3.61,
+                "NOM": 3.81,
+                "MAX": 4.01
+            },
+            "A1": {
+                "MIN": 0.4,
+                "NOM": 0.5,
+                "MAX": 0.6
+            },
+            "A2": {
+                "MIN": 3.11,
+                "NOM": 3.31,
+                "MAX": 3.51
+            },
+            "A3": {
+                "MIN": 1.01,
+                "NOM": 1.04,
+                "MAX": 1.07
+            },
+            "A4": {
+                "MIN": 2.67,
+                "NOM": 2.77,
+                "MAX": 2.87
+            },
+            "D/E": 35.0,
+            "D1/E1": 33.0,
+            "e": 1.0,
+            "øb": {
+                "MIN": 0.5,
+                "NOM": 0.6,
+                "MAX": 0.7
+            },
+            "aaa": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.2
+            },
+            "ccc": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.35
+            },
+            "ddd": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.3
+            },
+            "eee": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.1
+            },
+            "M": 34
+        },
+        "image_path": "./all_images/obg0244_page1.jpg"
+    },
+    "VSVA3340, VSRA3340 (VP1502) (XQVP1502)": {
+        "id": "VSVA3340, VSRA3340 (VP1502) (XQVP1502)",
+        "table": {
+            "A": {
+                "MIN": 4.0,
+                "NOM": 4.2,
+                "MAX": 4.4
+            },
+            "A1": {
+                "MIN": 0.4,
+                "NOM": 0.5,
+                "MAX": 0.6
+            },
+            "A2": {
+                "MIN": 3.5,
+                "NOM": 3.7,
+                "MAX": 3.9
+            },
+            "A3": {
+                "MIN": 0.85,
+                "NOM": 0.95,
+                "MAX": 1.05
+            },
+            "A4": {
+                "MIN": 3.15,
+                "NOM": 3.25,
+                "MAX": 3.35
+            },
+            "D/E": 55.0,
+            "D1/E1": 52.44,
+            "e": 0.92,
+            "øb": {
+                "MIN": 0.5,
+                "NOM": 0.64,
+                "MAX": 0.7
+            },
+            "aaa": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.3
+            },
+            "bbb": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.35
+            },
+            "ddd": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.25
+            },
+            "eee": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.1
+            },
+            "M": 58
+        },
+        "image_path": "./all_images/obg0308 _page1.jpg"
+    },
+    "VSVD1760-LP (VM1802) (SCD5521)": {
+        "id": "VSVD1760-LP (VM1802) (SCD5521)",
+        "table": {
+            "A": {
+                "MIN": 2.55,
+                "NOM": 2.75,
+                "MAX": 2.95
+            },
+            "A1": {
+                "MIN": 0.4,
+                "NOM": 0.5,
+                "MAX": 0.6
+            },
+            "A2": {
+                "MIN": 2.05,
+                "NOM": 2.25,
+                "MAX": 2.45
+            },
+            "A3": {
+                "MIN": 0.097,
+                "NOM": 0.147,
+                "MAX": 0.197
+            },
+            "D/E": 40.0,
+            "D1/E1": 37.72,
+            "e": 0.92,
+            "øb": {
+                "MIN": 0.5,
+                "NOM": 0.64,
+                "MAX": 0.7
+            },
+            "aaa": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.2
+            },
+            "bbb": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.1
+            },
+            "dddd": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.25
+            },
+            "eee": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.1
+            },
+            "M": 42
+        },
+        "image_path": "./all_images/obg0384_page1.jpg"
+    },
+    "FB(G)900/FBV900 (7K410T) (CHIP CAPACITOR LAYOUT)": {
+        "id": "FB(G)900/FBV900 (7K410T) (CHIP CAPACITOR LAYOUT)",
         "table": {
             "PACKAGE TYPE": "FB900",
             "DEVICE TYPE": "XC7K325T",
@@ -14430,5 +13848,646 @@
             "H1": 20.92
         },
         "image_path": "./all_images/obg0101_page3.jpg"
+    },
+    "FF(G)1738 (VIRTEX-5: XC5VFX130T/XC5VFX200T/XQ5VFX200T/XC5VLX220T/XCE05L22T/XC5VSX240T/XQ5VSX240T/XC5VLX330T)": {
+        "id": "FF(G)1738 (VIRTEX-5: XC5VFX130T/XC5VFX200T/XQ5VFX200T/XC5VLX220T/XCE05L22T/XC5VSX240T/XQ5VSX240T/XC5VLX330T)",
+        "table": {
+            "A": {
+                "MIN": 2.85,
+                "NOM": null,
+                "MAX": 3.25
+            },
+            "A1": {
+                "MIN": 0.4,
+                "NOM": 0.5,
+                "MAX": 0.6
+            },
+            "A2": {
+                "MIN": 1.0,
+                "NOM": null,
+                "MAX": 1.4
+            },
+            "D/E": 42.5,
+            "D1/E1": 41.0,
+            "e": 1.0,
+            "øb": {
+                "MIN": 0.5,
+                "NOM": 0.6,
+                "MAX": 0.7
+            },
+            "aaa": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.25
+            },
+            "bbb": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.25
+            },
+            "ddd": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.25
+            },
+            "eee": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.1
+            },
+            "M": 42
+        },
+        "image_path": "./all_images/obg0066_page2.jpg"
+    },
+    "FFVB676 (XCAU15P/XCAU10P) (XCAU25P/XCAU20P)": {
+        "id": "FFVB676 (XCAU15P/XCAU10P) (XCAU25P/XCAU20P)",
+        "table": {
+            "A": {
+                "MIN": 3.03,
+                "NOM": 3.23,
+                "MAX": 3.43
+            },
+            "A1": {
+                "MIN": 0.4,
+                "NOM": 0.5,
+                "MAX": 0.6
+            },
+            "A2": {
+                "MIN": 2.53,
+                "NOM": 2.73,
+                "MAX": 2.93
+            },
+            "D/E": 27.0,
+            "D1/E1": 25.0,
+            "e": 1.0,
+            "øb": {
+                "MIN": 0.5,
+                "NOM": 0.6,
+                "MAX": 0.7
+            },
+            "aaa": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.2
+            },
+            "ccc": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.25
+            },
+            "ddd": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.25
+            },
+            "eee": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.1
+            },
+            "M": 26
+        },
+        "image_path": "./all_images/obg0187_page2.jpg"
+    },
+    "VSVA3340, VSRA3340 (VP1402) (XQVP1402)": {
+        "id": "VSVA3340, VSRA3340 (VP1402) (XQVP1402)",
+        "table": {
+            "A": {
+                "MIN": 4.08,
+                "NOM": 4.28,
+                "MAX": 4.48
+            },
+            "A1": {
+                "MIN": 0.4,
+                "NOM": 0.5,
+                "MAX": 0.6
+            },
+            "A2": {
+                "MIN": 3.58,
+                "NOM": 3.78,
+                "MAX": 3.98
+            },
+            "A3": {
+                "MIN": 0.95,
+                "NOM": 1.05,
+                "MAX": 1.15
+            },
+            "A4": {
+                "MIN": 3.12,
+                "NOM": 3.22,
+                "MAX": 3.32
+            },
+            "D/E": 55.0,
+            "D1/E1": 52.44,
+            "e": 0.92,
+            "øb": {
+                "MIN": 0.5,
+                "NOM": 0.64,
+                "MAX": 0.7
+            },
+            "aaa": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.2
+            },
+            "bbb": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.35
+            },
+            "ddd": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.25
+            },
+            "eee": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.1
+            },
+            "M": 58
+        },
+        "image_path": "./all_images/obg0308 _page3.jpg"
+    },
+    "FB(G)900/FBV900 (7K325T) (CHIP CAPACITOR LAYOUT)": {
+        "id": "FB(G)900/FBV900 (7K325T) (CHIP CAPACITOR LAYOUT)",
+        "table": {
+            "PACKAGE TYPE": "FB900",
+            "DEVICE TYPE": "XC7K325T",
+            "F1": 9.89,
+            "G1": 16.92,
+            "J1": 15.89,
+            "H1": 20.92
+        },
+        "image_path": "./all_images/obg0101_page2.jpg"
+    },
+    "FB(G)676/FBV676 (XC7K410T) (CHIP CAPACITOR LAYOUT)": {
+        "id": "FB(G)676/FBV676 (XC7K410T) (CHIP CAPACITOR LAYOUT)",
+        "table": {},
+        "image_path": "./all_images/obg0100_page6.jpg"
+    },
+    "FFVA1156,FFQA1156 (KU060, KU095, KU11P) / FFVC1156,FFQC1156 (ZU7EV/ZU11EG)": {
+        "id": "FFVA1156,FFQA1156 (KU060, KU095, KU11P) / FFVC1156,FFQC1156 (ZU7EV/ZU11EG)",
+        "table": {
+            "A": {
+                "MIN": 3.11,
+                "NOM": 3.31,
+                "MAX": 3.51
+            },
+            "A1": {
+                "MIN": 0.4,
+                "NOM": 0.5,
+                "MAX": 0.6
+            },
+            "A2": {
+                "MIN": 2.61,
+                "NOM": 2.81,
+                "MAX": 3.01
+            },
+            "D/E": 35.0,
+            "D1/E1": 33.0,
+            "e": 1.0,
+            "øb": {
+                "MIN": 0.5,
+                "NOM": 0.6,
+                "MAX": 0.7
+            },
+            "aaa": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.2
+            },
+            "ccc": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.35
+            },
+            "ddd": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.3
+            },
+            "eee": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.1
+            },
+            "M": 34
+        },
+        "image_path": "./all_images/obg0144_page2.jpg"
+    },
+    "FB(G)676/FBV676 (XC7Z035/XC7Z045 CHIP CAPACITOR LAYOUT)": {
+        "id": "FB(G)676/FBV676 (XC7Z035/XC7Z045 CHIP CAPACITOR LAYOUT)",
+        "table": {},
+        "image_path": "./all_images/obg0100_page7.jpg"
+    },
+    "FB(G)676/FBV676 (XC7K325T) (CHIP CAPACITOR LAYOUT)": {
+        "id": "FB(G)676/FBV676 (XC7K325T) (CHIP CAPACITOR LAYOUT)",
+        "table": {},
+        "image_path": "./all_images/obg0100_page5.jpg"
+    },
+    "FB(G)676/FBV676 (XC7K160T) (CHIP CAPACITOR LAYOUT)": {
+        "id": "FB(G)676/FBV676 (XC7K160T) (CHIP CAPACITOR LAYOUT)",
+        "table": {},
+        "image_path": "./all_images/obg0100_page4.jpg"
+    },
+    "FFRA1156 (XCKU15P) / FFRC1156 (XQZU7EV, XQZU11EG) / RFQC1156 (XQZU7EV)": {
+        "id": "FFRA1156 (XCKU15P) / FFRC1156 (XQZU7EV, XQZU11EG) / RFQC1156 (XQZU7EV)",
+        "table": {
+            "A": {
+                "MIN": 3.31,
+                "NOM": 3.51,
+                "MAX": 3.71
+            },
+            "A1": {
+                "MIN": 0.4,
+                "NOM": 0.5,
+                "MAX": 0.6
+            },
+            "A2": {
+                "MIN": 2.81,
+                "NOM": 3.01,
+                "MAX": 3.21
+            },
+            "D/E": 35.0,
+            "D1/E1": 33.0,
+            "e": 1.0,
+            "øb": {
+                "MIN": 0.5,
+                "NOM": 0.6,
+                "MAX": 0.7
+            },
+            "aaa": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.2
+            },
+            "ccc": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.35
+            },
+            "ddd": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.3
+            },
+            "eee": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.1
+            },
+            "M": 34
+        },
+        "image_path": "./all_images/obg0248_page1.jpg"
+    },
+    "FB(G)676/FBV676 (XC7K70T) (CHIP CAPACITOR LAYOUT)": {
+        "id": "FB(G)676/FBV676 (XC7K70T) (CHIP CAPACITOR LAYOUT)",
+        "table": {},
+        "image_path": "./all_images/obg0100_page3.jpg"
+    },
+    "FB(G)676/FBV676 (XC7A200T CHIP CAPACITOR (NOT REQUIRED))": {
+        "id": "FB(G)676/FBV676 (XC7A200T CHIP CAPACITOR (NOT REQUIRED))",
+        "table": {},
+        "image_path": "./all_images/obg0100_page2.jpg"
+    },
+    "VSVA2785/VSRA2785 (VP1502) (XQVP1502)": {
+        "id": "VSVA2785/VSRA2785 (VP1502) (XQVP1502)",
+        "table": {
+            "A": {
+                "MIN": 4.08,
+                "NOM": 4.28,
+                "MAX": 4.48
+            },
+            "A1": {
+                "MIN": 0.4,
+                "NOM": 0.5,
+                "MAX": 0.6
+            },
+            "A2": {
+                "MIN": 3.58,
+                "NOM": 3.78,
+                "MAX": 3.98
+            },
+            "A3": {
+                "MIN": 0.84,
+                "NOM": 0.94,
+                "MAX": 1.04
+            },
+            "A4": {
+                "MIN": 3.24,
+                "NOM": 3.34,
+                "MAX": 3.44
+            },
+            "D/E": 50.0,
+            "D1/E1": 47.84,
+            "e": 0.92,
+            "øb": {
+                "MIN": 0.5,
+                "NOM": 0.64,
+                "MAX": 0.7
+            },
+            "aaa": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.3
+            },
+            "bbb": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.35
+            },
+            "ddd": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.25
+            },
+            "eee": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.1
+            },
+            "M": 53
+        },
+        "image_path": "./all_images/obg0304 _page2.jpg"
+    },
+    "VSVA2785/VSQA2785/VSRA2785 (VP1202) (XQVP1202) (XQVP1202)": {
+        "id": "VSVA2785/VSQA2785/VSRA2785 (VP1202) (XQVP1202) (XQVP1202)",
+        "table": {
+            "A": {
+                "MIN": 4.0,
+                "NOM": 4.2,
+                "MAX": 4.4
+            },
+            "A1": {
+                "MIN": 0.4,
+                "NOM": 0.5,
+                "MAX": 0.6
+            },
+            "A2": {
+                "MIN": 3.5,
+                "NOM": 3.7,
+                "MAX": 3.9
+            },
+            "A3": {
+                "MIN": 0.95,
+                "NOM": 1.05,
+                "MAX": 1.15
+            },
+            "A4": {
+                "MIN": 3.05,
+                "NOM": 3.15,
+                "MAX": 3.25
+            },
+            "D/E": 50.0,
+            "D1/E1": 47.84,
+            "e": 0.92,
+            "øb": {
+                "MIN": 0.5,
+                "NOM": 0.64,
+                "MAX": 0.7
+            },
+            "aaa": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.2
+            },
+            "bbb": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.35
+            },
+            "ddd": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.25
+            },
+            "eee": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.1
+            },
+            "M": 53
+        },
+        "image_path": "./all_images/obg0304 _page1.jpg"
+    },
+    "FF(G)1760 (VIRTEX-5 & 6: XC5VLX220/XC5VLX330/XCE05L33/XC6VLX550T/XC6VLX760)": {
+        "id": "FF(G)1760 (VIRTEX-5 & 6: XC5VLX220/XC5VLX330/XCE05L33/XC6VLX550T/XC6VLX760)",
+        "table": {
+            "A": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 3.5
+            },
+            "A1": {
+                "MIN": 0.4,
+                "NOM": 0.5,
+                "MAX": 0.6
+            },
+            "A2": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 1.5
+            },
+            "D/E": 42.5,
+            "D1/E1": 41.0,
+            "e": 1.0,
+            "øb": {
+                "MIN": 0.5,
+                "NOM": 0.6,
+                "MAX": 0.7
+            },
+            "aaa": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.25
+            },
+            "bbb": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.25
+            },
+            "ddd": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.25
+            },
+            "eee": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.1
+            },
+            "M": 42
+        },
+        "image_path": "./all_images/obg0057_page2.jpg"
+    },
+    "VSVA2785/VSRA2785 (VP1102, VP1402) (XQVP1402)": {
+        "id": "VSVA2785/VSRA2785 (VP1102, VP1402) (XQVP1402)",
+        "table": {
+            "A": {
+                "MIN": 4.08,
+                "NOM": 4.28,
+                "MAX": 4.48
+            },
+            "A1": {
+                "MIN": 0.4,
+                "NOM": 0.5,
+                "MAX": 0.6
+            },
+            "A2": {
+                "MIN": 3.58,
+                "NOM": 3.78,
+                "MAX": 3.98
+            },
+            "A3": {
+                "MIN": 0.95,
+                "NOM": 1.05,
+                "MAX": 1.15
+            },
+            "A4": {
+                "MIN": 3.02,
+                "NOM": 3.22,
+                "MAX": 3.32
+            },
+            "D/E": 50.0,
+            "D1/E1": 47.84,
+            "e": 0.92,
+            "øb": {
+                "MIN": 0.5,
+                "NOM": 0.64,
+                "MAX": 0.7
+            },
+            "aaa": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.2
+            },
+            "bbb": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.35
+            },
+            "ddd": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.25
+            },
+            "eee": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.1
+            },
+            "M": 53
+        },
+        "image_path": "./all_images/obg0304 _page4.jpg"
+    },
+    "FF(G)900/901,FFV900/901 ( KINTEX-7: XC7K325T/XC7K410T ) ( ZYNQ-7: XC7Z035/XC7Z045/XC7Z100 )": {
+        "id": "FF(G)900/901,FFV900/901 ( KINTEX-7: XC7K325T/XC7K410T ) ( ZYNQ-7: XC7Z035/XC7Z045/XC7Z100 )",
+        "table": {
+            "A": {
+                "MIN": 2.95,
+                "NOM": 3.15,
+                "MAX": 3.35
+            },
+            "A1": {
+                "MIN": 0.4,
+                "NOM": 0.5,
+                "MAX": 0.6
+            },
+            "A2": {
+                "MIN": 2.55,
+                "NOM": null,
+                "MAX": 2.75
+            },
+            "D/E": 31.0,
+            "D1/E1": 29.0,
+            "e": 1.0,
+            "øb": {
+                "MIN": 0.5,
+                "NOM": 0.6,
+                "MAX": 0.7
+            },
+            "aaa": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.2
+            },
+            "ccc": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.35
+            },
+            "ddd": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.3
+            },
+            "eee": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.1
+            },
+            "M": 30
+        },
+        "image_path": "./all_images/obg0102_page2.jpg"
+    },
+    "CMVA361 (SU35P, SU25P, SU10P)": {
+        "id": "CMVA361 (SU35P, SU25P, SU10P)",
+        "table": {
+            "A": {
+                "MIN": 0.97,
+                "NOM": 1.07,
+                "MAX": 1.17
+            },
+            "A1": {
+                "MIN": 0.16,
+                "NOM": 0.21,
+                "MAX": 0.26
+            },
+            "A2": {
+                "MIN": 0.76,
+                "NOM": 0.86,
+                "MAX": 0.96
+            },
+            "D/E": {
+                "MIN": 9.9,
+                "NOM": 10.0,
+                "MAX": 10.1
+            },
+            "D1/E1": 9.0,
+            "e": 0.5,
+            "øb": {
+                "MIN": 0.25,
+                "NOM": 0.3,
+                "MAX": 0.35
+            },
+            "ccc": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.1
+            },
+            "ddd": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.08
+            },
+            "eee": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.15
+            },
+            "fff": {
+                "MIN": null,
+                "NOM": null,
+                "MAX": 0.05
+            },
+            "ZD/ZE": {
+                "MIN": 0.35,
+                "NOM": 0.5,
+                "MAX": 0.65
+            },
+            "N": 19
+        },
+        "image_path": "./all_images/obg0395.jpg"
     }
 }
