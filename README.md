@@ -105,7 +105,7 @@ Tracks API usage costs:
 -   Cost calculations
 -   Usage reporting
 
-### `Gemini_refactored.py`
+### `Gemini.py`
 
 -   Gemini API client:
 
