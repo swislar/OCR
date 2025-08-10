@@ -1,4 +1,4 @@
-# OCR Application
+# OCR
 
 ## Project Structure
 
@@ -42,7 +42,7 @@ GOOGLE_API_KEY="your_api_key_here"
 ### Basic Usage
 
 ```bash
-python Main_refactored.py path/to/your/data.csv
+python Main.py path/to/your/data.csv
 ```
 
 ## Configuration
@@ -107,16 +107,8 @@ Tracks API usage costs:
 
 ### `Gemini_refactored.py`
 
-Refactored Gemini API client:
+-   Gemini API client:
 
--   Cleaner interface
--   Better error handling
--   Modular design
+### `Main.py`
 
-### `Main_refactored.py`
-
-Main application orchestrator:
-
--   Pipeline coordination
--   Error handling
--   Result management
+-   Main application orchestrator:
